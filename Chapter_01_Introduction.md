@@ -132,3 +132,17 @@ def friends_of_friend_ids_bad(user):
 ```
 
 当我们把上面的函数作用在第一个用户`users[0]`上的时候,`friends_of_friend_ids_bad(users[0])`给出如下的结果
+```python
+[0, 2, 3, 0, 1, 3]
+```
+结果中包括了用户 0 两次，因为用户 0 ( Hero )确实同时是他的两个朋友的朋友。结果中也包括用户 1 和用户 2 ，虽然他们已经是用户 1 的朋友。同时他也包括了用户 3 两次，因为用户 3 ( Chi ) 可以通过用户 0 的两个朋友和用户 0 联系起来，具体的验证代码如下：
+
+```python
+print [friend["id"] for friend in users[0]["friends"]] #[1, 2]
+print [friend["id"] for friend in users[1]["friends"]] #[0, 2, 3]
+print [friend["id"] for friend in users[2]["friends"]] #[0, 1, 3]
+```
+知道人们可以借助自己朋友的朋友互相认识彼此是非常有趣的信息，所以或许我们应该统计下通过共同朋友可能成为朋友的数目。为了实现这个目的，我们需要借助辅助函数来排除已经彼此认识成为朋友的那批用户：
+```python
+
+```
