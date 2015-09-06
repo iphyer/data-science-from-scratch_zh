@@ -5,7 +5,7 @@
 * [第2章：Python快速入门教程](Chapter_02_A_Crash_Course_in_Python.md)
 * [第3章：数据可视化](Chapter_03_Visualizing_Data.md)
 * [第4章：线性代数](Chapter_04_Linear_Algebra.md)
-* [第5章：统计](Chapter_5_Statistics)
+* [第5章：统计](Chapter_05_Statistics.md)
 * [第6章：概率](Chapter_6_Probability.md)
 * [第7章：假设和推理](Chapter_7_Hypothesis_and_Inference)
 * [第8章：梯度下降](Chapter_8_Gradient_Descent)
