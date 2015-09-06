@@ -20,4 +20,5 @@
 * [第19章：集群](Chapter_19_Clustering.md)
 * [第20章：自然语言处理](Chapter_20_Natural_Language_Processing.md)
 * [第21章：网络分析](Chapter_21_Network_Analysis.md)
+* 第22章：推荐系统
 
