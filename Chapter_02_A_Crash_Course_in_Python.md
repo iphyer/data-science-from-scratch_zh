@@ -209,6 +209,7 @@ try:
 except ZeroDivisionError:
   　print "can not divied by zero"
 ```
+虽然在很多其他语言中异常被认为是编程的错误，但是在 Python 的世界中通过异常来使得程序更加整洁是没什么不好意思的，在这本书中，我们有时候也会使用异常。
 
 ```python
 ```
