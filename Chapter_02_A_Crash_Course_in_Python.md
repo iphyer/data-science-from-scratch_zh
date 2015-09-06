@@ -330,7 +330,13 @@ x,y = y,x #Pythonic规范的交换x,y的方法
 
 当然如果你使用字典中不存在的键，则会得到一个`KeyError`：
 ```python
+try:
+　  kates_grad = grades["Kate"]
+except KeyError:
+     print "no grad for Kate!"
 ```
+你可以使用`in`方法来检查一个键是否存在。
+
 ```python
 ```
 
