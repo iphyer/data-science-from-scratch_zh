@@ -144,5 +144,23 @@ print [friend["id"] for friend in users[2]["friends"]] #[0, 1, 3]
 ```
 知道人们可以借助自己朋友的朋友互相认识彼此是非常有趣的信息，所以或许我们应该统计下通过共同朋友可能成为朋友的数目。为了实现这个目的，我们需要借助辅助函数来排除已经彼此认识成为朋友的那批用户：
 ```python
+from collections import Counter # 并不默认加载collection函数
 
+def not_the_same(user, other_user):
+"""排除相同用户"""
+    return user["id"] != other_user["id"]
+
+def not_friends(user, other_user):
+"""other_user用户并不是user用户的朋友;也就是 other_user并不和user用户的friends列表中个的用户相同"""
+     return all(not_the_same(friend, other_user)
+           for friend in user["friends"])
+
+def friends_of_friend_ids(user):
+    return Counter(foaf["id"]
+               for friend in user["friends"]  # 对于每一个user用户的朋友
+               for foaf in friend["friends"]  # 对于每一个user用户朋友的朋友
+               if not_the_same(user, foaf)    # 排除相同用户
+               and not_friends(user, foaf))   # 排除已经是朋友的用户
+
+print friends_of_friend_ids(users[3]) # Counter({0: 2, 5: 1})
 ```
