@@ -89,5 +89,7 @@ IndentationError: unexpected indent
 一个简单的方法是直接导入模块本身，比如：
 
 ```python
+import re
+my_regex = re.compile("[0-9]+",re.I)
 ```
 
