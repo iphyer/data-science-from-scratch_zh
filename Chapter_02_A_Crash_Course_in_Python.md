@@ -131,12 +131,26 @@ from __future__ import division
 
 函数简而言之就是一种规则，这种规则对于零个或者多个输入进行处理并给出一个相应的输出。 在 Python 中，我们使用关键字 `def`来定义函数，比如：
 ```python
+def double(x):
+     '''这里通常会协商函数的说明文档,文档一般会解释函数的功能.
+     比如对于这个函数而言，我们会写上：    这个函数将把输入都乘以2作为输出'''
+     return x * 2
+```
+在 Python 中函数是一级（First-class）公民，这也就是意味着你可以像对待参数一样自由地把函数赋值给变量或者将函数传递给函数，比如：
+```python
+def apply_to_one(f):
+       '''该函数将自动把 1 作为函数的参数'''
+      return f(1)
 
+my_double = double         #调用前面定义的函数
+x = apply_to_one(my_double) #结果为2
 ```
+
+同样 Python 允许你非常方便的定义Lambda表达式，比如：
 ```python
+y = apply_to_one(lambda x : x+4) #结果是5
 ```
-```python
-```
+你也可以把 `lambds`表达式赋值给变量，尽管很多人会告诉你你应该使用`def`定义函数的方法来代替：
 ```python
 ```
 ```python
