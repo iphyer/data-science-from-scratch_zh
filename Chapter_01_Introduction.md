@@ -130,3 +130,5 @@ def friends_of_friend_ids_bad(user):
         for friend in user["friends"] # 对于每一个用户的朋友们
         for foaf in friend["friends"]] # 检验这个朋友的朋友是不是这个用户的朋友
 ```
+
+当我们把上面的函数作用在第一个用户`users[0]`上的时候,`friends_of_friend_ids_bad(users[0])`给出如下的结果
