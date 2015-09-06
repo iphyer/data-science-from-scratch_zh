@@ -69,7 +69,7 @@ users = [
 for user in users:
     user["friends"] = []
 ```
-然后我们可以通过friendships数据来填充friends属性列表。
+然后我们可以通过`friendships`数据来填充`friends`属性列表。
 ```python
 for i, j in friendships:
 #这段代码可以工作是因为 users[i] 就是 id 为 i 的用户
