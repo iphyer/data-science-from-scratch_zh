@@ -4,7 +4,7 @@
 该翻译仅供学习交流，不做任何商业用途，请尊重作者的辛勤劳动，请到这里[购买](http://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X)
 ![buy](assets/images/buy.png)
 
-* 作者Joel Grus个人[Github](https://github.com/joelgrus)
+* 作者**Joel Grus**个人[Github](https://github.com/joelgrus)
 * [书籍示例代码](https://github.com/joelgrus/data-science-from-scratch)
 
 ##前言
