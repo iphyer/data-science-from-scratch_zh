@@ -7,7 +7,7 @@
 * [第4章：线性代数](Chapter_04_Linear_Algebra.md)
 * [第5章：统计](Chapter_05_Statistics.md)
 * [第6章：概率](Chapter_06_Probability.md)
-* [第7章：假设和推理](Chapter_7_Hypothesis_and_Inference)
+* [第7章：假设和推理](Chapter_07_Hypothesis_and_Inference.md)
 * [第8章：梯度下降](Chapter_8_Gradient_Descent)
 * [第9章：获取数据](Chapter_9_Getting_Data.md)
 * [第10章：处理数据](Chapter_10_Working_with_Data.md)
