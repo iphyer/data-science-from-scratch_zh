@@ -180,9 +180,15 @@ subtract(b=5)  #输出是-5
 字符串的内容会被单引号或者双引号括起来，当然在这里你的单引号或者双引号必须配对。
 
 ```python
+single_quoted_string = 'data science'
+double_quoted_string = 'data science'
 ```
+Python 通过反斜杠来表示特殊字符，比如:
 ```python
+tab_string = "\t" #代表制表符
+len(tab_string) 　 #输出结果是１
 ```
+如果你就是希望使用反斜杠(　比如在　Windows　操作系统中表示路径或者在正则表达式中　)，你可以通过`r`使用　`raw`　字符串:
 ```python
 ```
 ```python
