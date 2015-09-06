@@ -96,3 +96,38 @@ my_regex = re.compile("[0-9]+",re.I)
 
 如果 `re` 在你的程序中已经被占用了的话，你就可以如下的方法来引入 `re` 模块。
 
+```python
+import re as regex
+my_regex = regex.compile("[0-9]+",re.I)
+```
+```python
+```
+```python
+```
+```python
+```
+```python
+```
+```python
+```
+```python
+```
+```python
+```
+```python
+```
+```python
+```
+```python
+```
+```python
+```
+```python
+```
+```python
+```
+```python
+```
+```python
+```
+
