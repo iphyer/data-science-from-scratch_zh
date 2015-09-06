@@ -286,13 +286,35 @@ _,y = [1,2] #现在ｙ是２，当然我们并不关心第一个元素
 
 元组是不可的列表。很多你可以在列表上做的事情在元组上没办法实现。你可以用括号(或不加任何标记)来表示元组，而不是在列表形式中的方括号:
 ```python
+my_list = [1,2]
+my_tuple = (1,2)
+other_tuple = 3,4
+my_list[1] = 3 #现在列表是[ 1, 3 ]
+
+try:
+     my_tuple[1] = 3
+except TypeError:
+     print "can not modify a tuple"
 ```
 
-```python
-```
+元组是从函数返回多个值的方法，比如:
 
 ```python
+def sum_and_product(x,y):
+    return (x+y),(x * y)
+
+sp = sum_and_product(2, 3)  #结果是元组(5,6)
+s,p = sum_and_product(5,10) #s值为 15, p值为 50
 ```
+元组和列表也都可以用来赋多个值。
+
+```python
+x,y = 1,2
+x,y = y,x #Pythonic规范的交换x,y的方法
+```
+### 字典
+
+字典是另一种非常重要的基本数据类型。字典将键和值联系在一起，所以字典允许你可以快速地依照特定的键值得到值。
 
 ```python
 ```
