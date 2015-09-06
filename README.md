@@ -3,7 +3,7 @@
 ## 声明
 该翻译仅供学习交流
 尊重作者的辛勤劳动，请到这里[购买](http://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X)
-![](Screen Shot 2015-09-06 at 8.09.51 PM.png)
+![](assets/images/buy.png)
 
 ##前言
 
