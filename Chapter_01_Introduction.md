@@ -323,3 +323,15 @@ average_salary_by_bucket = {
 8.7     paid
 10      paid
 ```
+工作年限较长和较短的用户倾向于付费，但是接近平均工作年限的用户常常不倾向于付费。
+
+因此，你打算建立一个分类模型来区分付费用户和未付费用户。当然需要说明的是，虽然目前的数据量确实不足以创建一个可靠的模型，但是我们可以只是进行初步的尝试。所以你尝试认为工作年限较长和较短的用户是付费用户，但是接近平均工作年限的用户是未付费用户。具体的分类模型代码如下：
+```python
+def predict_paid_or_unpaid(years_experience):
+    if years_experience < 3.0:
+        return "paid"
+    elif years_experience < 8.5:
+        return "unpaid"
+    else:
+        return "paid"
+```
