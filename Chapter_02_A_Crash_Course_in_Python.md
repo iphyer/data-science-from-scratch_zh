@@ -92,4 +92,7 @@ IndentationError: unexpected indent
 import re
 my_regex = re.compile("[0-9]+",re.I)
 ```
+这里的 `re` 就是包括了正则表达式功能的模块。通过直接使用import 命令导入相应的包之后，你就可以通过在模块包含的函数或者方法之前加上该模块名作为前缀比如re来使用他们了。
+
+如果 re 在你的程序中已经被占用了的话，你就可以如下的方法来引入 re 模块。
 
