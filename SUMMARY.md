@@ -1,7 +1,7 @@
 # Summary
 
 * [README](README.md)
-* [第1章：简介](Chapter_01_Introduction.md)
+* [第1章：简介](chapters/Chapter_01_Introduction.md)
 * [第2章：Python快速入门教程](Chapter_02_A_Crash_Course_in_Python.md)
 * [第3章：数据可视化](Chapter_03_Visualizing_Data.md)
 * [第4章：线性代数](Chapter_04_Linear_Algebra.md)
