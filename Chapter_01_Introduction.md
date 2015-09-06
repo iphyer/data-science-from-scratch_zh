@@ -212,3 +212,10 @@ interests_by_user_id = defaultdict(list)
 for user_id, interest in interests:
    interests_by_user_id[user_id].append(interest)
 ```
+现在我们可以很容易的找到对于一个特定的用户和他有最多相同兴趣的用户了，具体思路如下：
+
+* 对该用户的兴趣列表做一次循环
+* 对于该用户的每一个兴趣，在相应的兴趣对应的用户列表中再次循环
+* 记录下每一个用户在这样的循环中出现的次数
+
+具体实现的代码为：
