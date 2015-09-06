@@ -344,5 +344,31 @@ def predict_paid_or_unpaid(years_experience):
 当你在 DataSciencester 第一天的工作接近尾声准备下班的时候，负责产品内容管理的高管向你咨询用户们最感兴趣的热门话题是哪些，因为她需要安排公司博客发布内容的日程，通常这些博客的内容就是用户门最感兴趣的话题。你已经从前面“你可能认识的数据科学家”项目中“推荐拥有共同兴趣的陌生用户”部分得到了如下的用户兴趣数据：
 
 ```python
+interests = [
+(0, "Hadoop"), (0, "Big Data"), (0, "HBase"), (0, "Java"),
+(0, "Spark"), (0, "Storm"), (0, "Cassandra"),
+(1, "NoSQL"), (1, "MongoDB"), (1, "Cassandra"), (1, "HBase"),
+(1, "Postgres"), (2, "Python"), (2, "scikit-learn"), (2, "scipy"),
+(2, "numpy"), (2, "statsmodels"), (2, "pandas"), (3, "R"), (3, "Python"),
+(3, "statistics"), (3, "regression"), (3, "probability"),
+(4, "machine learning"), (4, "regression"), (4, "decision trees"),
+(4, "libsvm"), (5, "Python"), (5, "R"), (5, "Java"), (5, "C++"),
+(5, "Haskell"), (5, "programming languages"), (6, "statistics"),
+(6, "probability"), (6, "mathematics"), (6, "theory"),
+(7, "machine learning"), (7, "scikit-learn"), (7, "Mahout"),
+(7, "neural networks"), (8, "neural networks"), (8, "deep learning"),
+(8, "Big Data"), (8, "artificial intelligence"), (9, "Hadoop"),
+(9, "Java"), (9, "MapReduce"), (9, "Big Data")
+]
+```
+一个简单但是可能不是那么激动人心的方法就是仅仅从关键词被提及的频数角度来找出最受欢迎的兴趣，具体步骤如下：
 
+把兴趣列表中的单词转化为小写(因为不同的用户可能大写也可能不大写同一个关键词的开头字母)
+对兴趣词组进行分词
+统计分词结果中，每一个不同单词的出现次数
+具体代码如下：
+```python
+words_and_counts = Counter(word
+                       for user, interest in interests
+                       for word in interest.lower().split())
 ```
