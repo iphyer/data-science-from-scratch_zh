@@ -372,3 +372,9 @@ words_and_counts = Counter(word
                        for user, interest in interests
                        for word in interest.lower().split())
 ```
+这样我们就可以很方便的输出所有出现次数大于 1 的单词，具体代码如下：
+```python
+for word, count in words_and_counts.most_common():
+    if count > 1:
+        print word, count
+```
