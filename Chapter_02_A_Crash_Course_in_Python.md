@@ -30,9 +30,9 @@ Python 是一门有着自己独特设计理念的语言，这些设计理念通�
 
 人们最长讨论和提到的是如下几句：
 
-( 任何问题)应该有一个解决方法，也只有一个最好的解决方案，请使用最显然直接的方法实现它。
+> ( 任何问题)应该有一个解决方法，也只有一个最好的解决方案，请使用最显然直接的方法实现它。
 
-(英文原版：There should be one-- and preferably only one --obvious way to do it.)
+> (英文原版：There should be one-- and preferably only one --obvious way to do it.)
 按照最直接的方式( 虽然对于初学者可能并不是那么直接。)写下的代码通常被认为是符合 Python 惯用法( Pythonic )的代码。虽然这本书并不是一本单纯的关于 Python 的书，但是只有偶然的几次我们会违背 Python 惯用法也就是我们使用非 Python 惯用法 的方式来实现可以用 Python 惯用法 完成的目标，大多数情况下我们倾向使用符合 Python 惯用法的方法解决问题。
 
 ### 空格格式
