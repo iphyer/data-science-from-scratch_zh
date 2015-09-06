@@ -103,13 +103,27 @@ my_regex = regex.compile("[0-9]+",re.I)
 通常在你的模块名比较难以记住或者需要输入很多字符的时候，你会使用上面的第二种方法导入特定的模块。比如，当我们使用 `matplotlib` 可视化数据的时候，通常我们这样导入需要的模块：
 
 ```python
+import matplotlib.pyplot as plt
 ```
+如果你只是需要某个模块的特定功能，你就可以直接导入这些功能然后不需要在这些功能前面加上前缀，比如：
+```python
+from collections import defaultdict, Counter
+lookup = defaultdict(int)
+my_counter = Counter()
+```
+如果你喜欢做些破坏，你可以将某个模块的所有内容导入到 Python 的命名空间，这很有可能覆盖你已经定义的某些变量名，比如：
+```python
+match = 10
+from re import *  #注意，re 模块含有 match 函数
+print match         #“<function re.match>”
+```
+当然因为你不是个破坏狂，所以你是不会这么做的，对吧？
+###算数运算
+
+Python 2.7 默认使用整数除法，因为 5 / 2 的结果是 2 。 但是，大多数情况下这不是你希望的得到的结果，因此我们总会在我们的程序文件的开头使用如下语句：
 ```python
 ```
-```python
-```
-```python
-```
+
 ```python
 ```
 ```python
