@@ -4,7 +4,7 @@
 
 ## 原书链接
 
-Data Science From Scratch: First Principles with Python
+[Data Science From Scratch: First Principles with Python](http://joelgrus.com/2015/04/26/data-science-from-scratch-first-principles-with-python/)
 
 这本书借着一个故事，不是按照教科书的方式介绍数据科学而是从真实的示例中来介绍数据科学，所以更加适合大家学习与阅读。
 
