@@ -4,6 +4,9 @@
 该翻译仅供学习交流，不做任何商业用途，请尊重作者的辛勤劳动，请到这里[购买](http://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X)
 ![buy](assets/images/buy.png)
 
+* 作者Joel Grus个人[Github](https://github.com/joelgrus)
+* [书籍示例代码](https://github.com/joelgrus/data-science-from-scratch)
+
 ##前言
 
 我在自学的过程中，遇到不少有趣的资源，比如在[Jason的网站](http://machinelearningmastery.com/)找到的对出于不同目标，不同背景学习机器学习的小伙伴划分派系（查看：[Find Your Machine Learning Tribe: Get Started And Avoid Getting The Wrong Advice](http://machinelearningmastery.com/machine-learning-tribe/)）从而更具有针对性的开始和深入。
@@ -42,6 +45,7 @@
 * [第23章：数据库与SQL(WIP)](chapters/Chapter_23_Database_and_SQL.md)
 * [第24章：MapReduce(WIP)](chapters/Chapter_24_MapReduce.md)
 * [第25章：前进吧！继续你的数据科学之路(WIP)](chapters/Chapter_25_Go_Forth_and_Do_Data_Science.md)
+
 
 ## 翻译人员名单
 * [iphyer](https://github.com/iphyer)
