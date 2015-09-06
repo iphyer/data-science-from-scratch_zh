@@ -155,8 +155,17 @@ y = apply_to_one(lambda x : x+4) #结果是5
 another_double =lambda x : 2 * x   #最好不要这样
 def another_double(x): return 2 *x #推荐这样
 ```
+函数的参数也可以事先赋值，只有在你不希望出现默认值的时候这个方法才需要特别注意。
+
 ```python
+def my_print(message = "my default message"):
+    print message
+
+my_print("hello") #输出 "hello"
+my_print()        #输出 "my default message"
 ```
+
+
 ```python
 ```
 ```python
