@@ -14,5 +14,5 @@
 * [第13章：朴素贝叶斯](Chapter_13_Naive_Bayes.md)
 * [第14章：简单线性回归](Chapter_14_Simple_Linear_Regression.md)
 * [第15章：多元回归](Chapter_15_Multiple_Regression.md)
-* 第16章：逻辑回归
+* [第16章：逻辑回归](Chapter_16_Logistic_Regression.md)
 
