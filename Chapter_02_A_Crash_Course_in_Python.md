@@ -216,7 +216,12 @@ except ZeroDivisionError:
 可能在 Python　中最基本的数据结构就是列表`list`了。列表简而言之就是一个有序的集合(在其他语言中列表可能被成为数组，但是　Python　中的列表更多了一些附加的功能。)
 
 ```python
+integer_list = [1, 2, 3]
+heterogeneous_list = ["string", 0.1, True]
+list_of_lists = [integer_list, heterogeneous_list, [] ]
 
+list_length= len(integer_list) #结果是３
+list_sum= sum(integer_list)　　　 #结果是6
 ```
 
 ```python
