@@ -241,7 +241,7 @@ last_three=x[-3:]  #[7,8,9]
 ithout_first_and_last=x[1:-1] #[1,2,...,8]
 copy_of_x = x[:]  #[-1,1,2,...,9]
 ```
-
+Python 有`in`操作符来帮助你检查某个元素是不是在列表中
 ```python
 ```
 
