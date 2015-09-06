@@ -25,5 +25,5 @@
 * [第24章：MapReduce](Chapter_24_MapReduce.md)
 * [第25章：前进吧！继续你得数据科学之路](Chapter_25_Go_Forth_and_Do_Data_Science.md)
 * [第1章：简介](Chapter_01_Introduction.md)
-* 第二章：Python快速入门教程
+* [第二章：Python快速入门教程](Chapter_02_A_Crash_Course_in_Python.md)
 
