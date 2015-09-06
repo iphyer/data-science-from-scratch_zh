@@ -9,5 +9,5 @@
 * [第8章：梯度下降](Chapter_8_Gradient_Descent)
 * [第9章：获取数据](Chapter_9_Getting_Data.md)
 * [第10章：处理数据](Chapter_10_Working_with_Data.md)
-* 第11章：机器学习
+* [第11章：机器学习](Chapter_11_Machine_Learning.md)
 
