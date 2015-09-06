@@ -26,5 +26,4 @@
 * [第23章：数据库与SQL](chapters/Chapter_23_Database_and_SQL.md)
 * [第24章：MapReduce](chapters/Chapter_24_MapReduce.md)
 * [第25章：前进吧！继续你的数据科学之路](chapters/Chapter_25_Go_Forth_and_Do_Data_Science.md)
-* [test](chapters/test.md)
 
