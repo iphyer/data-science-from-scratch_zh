@@ -75,7 +75,9 @@ print i
 你可能会得到如下的提示信息:
 > 译者注，这里需要特别注意输入代码的格式区别。 具体详情请见 [Github Issue Report#11](https://github.com/joelgrus/data-science-from-scratch/issues/11)。
 
-
+```python
+IndentationError: unexpected indent
+```
 
 
 
