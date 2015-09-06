@@ -223,8 +223,14 @@ list_of_lists = [integer_list, heterogeneous_list, [] ]
 list_length= len(integer_list) #结果是３
 list_sum= sum(integer_list)　　　 #结果是6
 ```
-
+你可以通过方括号来取得或者设置列表中某个特定位置元素的值：
 ```python
+x =  range(10)      # 建立[0,1,2...9]的新列表
+zero = x[0]　　　　 #　结果是0,列表序号是从0开始的
+one = x[1]　　　　  #　结果是１
+nine = x[-1]　　　  #　结果是9，更加符合 Python 惯用法的引用最后一个列表元素的方法
+eight = x[-2]　　   #　结果是8, 更加符合 Python 惯用法的引用倒数第二个列表元素的方法
+x[0] = -1　　　　   #　现在x列表的结果是[-1,1,2...9]
 ```
 
 ```python
