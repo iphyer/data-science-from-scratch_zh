@@ -269,3 +269,13 @@ average_salary_by_tenure = {
  8.7: 83000,
   10: 83000}
 ```
+更有用的可能是将工作年限做一个粗略地分组再进行统计，代码如下：
+```python
+def tenure_bucket(tenure):
+    if tenure < 2:
+        return "less than two"
+    elif tenure < 5:
+        return "between two and five"
+    else:
+        return "more than five"
+```
