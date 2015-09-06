@@ -81,3 +81,18 @@ for i, j in friendships:
 
 要回答这个问题，首先我们必须找出所有的朋友关系数，这只需要统计朋友列表的长度就可以了。
 
+```python
+def number_of_friends(user):
+    """每一个用户有多少朋友"""
+    return len(user["friends"])                                         # 朋友列表长度
+
+total_connections = sum(number_of_friends(user)
+                    for user in users)                                  # 24
+```
+这样我们只需要简单地除以用户数即可得到平均一个用户有多少朋友了：
+```python
+from __future__ import division                 #引入整数除法特性
+#注意该语句必须是模块或程序的第一个语句。
+num_users = len(users)  #列表长度为10
+avg_connections = total_connections / num_users #每一个用户平均拥有的朋友数 2.4
+```
