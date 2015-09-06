@@ -317,5 +317,20 @@ x,y = y,x #Pythonic规范的交换x,y的方法
 字典是另一种非常重要的基本数据类型。字典将键和值联系在一起，所以字典允许你可以快速地依照特定的键值得到值。
 
 ```python
+ empty_dict = {}  #Pythonic
+ empty_dict2 = dict() #less Pythonic
+ grades = {"Joel" : 80,"Tim": 95}
+```
+
+你可以使用方括号来通过一个键获得相应的值。
+
+```python
+ joel_grade = grades["Joel"]
+```
+
+当然如果你使用字典中不存在的键，则会得到一个`KeyError`：
+```python
+```
+```python
 ```
 
