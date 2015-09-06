@@ -9,7 +9,7 @@
 * [第6章：概率](Chapter_06_Probability.md)
 * [第7章：假设和推理](Chapter_07_Hypothesis_and_Inference.md)
 * [第8章：梯度下降](Chapter_08_Gradient_Descent.md)
-* [第9章：获取数据](Chapter_9_Getting_Data.md)
+* [第9章：获取数据](Chapter_09_Getting_Data.md)
 * [第10章：处理数据](Chapter_10_Working_with_Data.md)
 * [第11章：机器学习](Chapter_11_Machine_Learning.md)
 * [第12章：k近邻算法](Chapter_12_k_Nearest_Neighbors.md)
