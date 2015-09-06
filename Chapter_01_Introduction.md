@@ -96,3 +96,9 @@ from __future__ import division                 #引入整数除法特性
 num_users = len(users)  #列表长度为10
 avg_connections = total_connections / num_users #每一个用户平均拥有的朋友数 2.4
 ```
+同样的思路我们也可以很容易地找出朋友关系最多的人——他们就是有最多朋友数目的人。
+
+因为数据量不是特别大，所以我们可以很容易地对所有的用户按照从“朋友最多的人”到“朋友最少的人”的顺序进行排序：
+```python
+
+```
