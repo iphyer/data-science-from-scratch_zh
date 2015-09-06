@@ -35,5 +35,19 @@ grades = [95, # exam1
 
 举例来说，[1,2] [2,1]相加的结果为[1 + 2, 2 + 1],或者[3, 3]如下图所示
 
+我们可以通过Zip两个向量或者使用list 来相加对应的元素：
+
+```python
+def vector_add(v, w):
+    """adds corresponding elements"""
+    return [v_i + w_i
+            for v_i, w_i in zip(v, w)]
+```
+与之相似，两个向量相减
+```python
+def vector_subtract(v, w):
+    """subtracts corresponding elements"""
+    return [v_i - w_i
+            for v_i, w_i in zip(v,w)]
 
 ## 矩阵
