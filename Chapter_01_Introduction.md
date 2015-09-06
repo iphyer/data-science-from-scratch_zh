@@ -378,3 +378,22 @@ for word, count in words_and_counts.most_common():
     if count > 1:
         print word, count
 ```
+这样就可以得到你期望的结果了(除非你希望 “scikit-learn” 应该被分割开来，这时候确实没有给出你期望的结果)，具体结果如下：
+```python
+learning 3
+java 3
+python 3
+big 3
+data 3
+hbase 2
+regression 2
+cassandra 2
+statistics 2
+probability 2
+hadoop 2
+networks 2
+machine 2
+neural 2
+scikit-learn 2
+r 2
+```
