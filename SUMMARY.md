@@ -23,5 +23,5 @@
 * [第22章：推荐系统](Chapter_22_Recommender_Systems)
 * [第23章：数据库与SQL](Chapter_23_Database_and_SQL.md)
 * [第25章：前进吧！继续你得数据科学之路](Chapter_25_Go_Forth_and_Do_Data_Science.md)
-* 第24章：MapReduce
+* [第24章：MapReduce](Chapter_24_MapReduce.md)
 
