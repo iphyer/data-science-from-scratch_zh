@@ -122,3 +122,11 @@ sorted(num_friends_by_id,                             #排序列表
 当你正在努力填写新员工登记表的时候，负责人事的高管来到你的办公桌前。她希望能够激发数据科学家之间更多的交流和联系，因此她希望你能够策划一个“你可能认识的数据科学家”的提示功能。
 
 你的直觉告诉你一个用户很有可能认识自己朋友的朋友。这个想法非常容易验证：对于每一个用户的朋友们，验证这个朋友的朋友是不是被这个用户认识，最后合并结果即可检测这个想法是不是可靠：
+
+```python
+def friends_of_friend_ids_bad(user):
+# "foaf" 是 "friend of a friend"的简称
+    return [foaf["id"]
+        for friend in user["friends"] # 对于每一个用户的朋友们
+        for foaf in friend["friends"]] # 检验这个朋友的朋友是不是这个用户的朋友
+```
