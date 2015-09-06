@@ -22,4 +22,5 @@
 * [第21章：网络分析](Chapter_21_Network_Analysis.md)
 * [第22章：推荐系统](Chapter_22_Recommender_Systems)
 * [第23章：数据库与SQL](Chapter_23_Database_and_SQL.md)
+* 第25章：前进吧！继续你得数据科学之路
 
