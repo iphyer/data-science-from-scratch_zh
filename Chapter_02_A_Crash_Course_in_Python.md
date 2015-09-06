@@ -190,9 +190,54 @@ len(tab_string) 　 #输出结果是１
 ```
 如果你就是希望使用反斜杠(　比如在　Windows　操作系统中表示路径或者在正则表达式中　)，你可以通过`r`使用　`raw`　字符串:
 ```python
+not_tab_string = r"\t" #表示　"\" 和 "t"
+len(not_tab_string)    #输出结果是２
 ```
+
+你也可以通过使用三重引号来建立多行字符串：
+```python
+ multi_line_string= """THis is the first line
+ and this is the second line
+and this is the third line"""
+```
+
 ```python
 ```
+
 ```python
 ```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
 
