@@ -65,6 +65,13 @@ easier_to_read_list_lists = [[1, 2, 3],
 two_plus_three = 2 + \
                  3
 ```
+使用空格格式的一个结果就是我们不能够像在其他语言中那样，简单地在 Python 交互解释器中复制或者粘贴代码。比如，如果你想粘贴如下的代码到 Python 交互解释器中：
+```python
+for i in [1, 2, 3, 4, 5]:
+
+#注意上方的空格
+print i
+```
 
 
 
