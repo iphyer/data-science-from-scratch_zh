@@ -78,6 +78,15 @@ print i
 ```python
 IndentationError: unexpected indent
 ```
+因为交互解释器认为空行代表了for循环的结束。
+
+当然如果利用Ipython的话就可以体验Ipython自带的 %paste函数，%paste函数可以正确的系统剪贴板上的任意内容到交互解释器中，包括空格和其他格式。单单这点就值得你使用Ipython来编辑你的 Python 代码。
+
+### 模块
+
+有些功能 Python 并不默认载入。这些功能既包括 Python 自带的一部分功能也包括你自行下载的第三方软件包。为了使用这些功能你需要首先用 import 命令导入包含这些功能的模块。
+
+一个简单的方法是直接导入模块本身，比如：
 
 
 
