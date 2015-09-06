@@ -152,6 +152,8 @@ y = apply_to_one(lambda x : x+4) #结果是5
 ```
 你也可以把 `lambds`表达式赋值给变量，尽管很多人会告诉你你应该使用`def`定义函数的方法来代替：
 ```python
+another_double =lambda x : 2 * x   #最好不要这样
+def another_double(x): return 2 *x #推荐这样
 ```
 ```python
 ```
