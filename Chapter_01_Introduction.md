@@ -279,3 +279,35 @@ def tenure_bucket(tenure):
     else:
         return "more than five"
 ```
+然后把属于同一个工作年限分组的工资数据合并到一个列表中，具体代码如下：
+```python
+#键是工作年限分组数据，值是该工作年限分组对应的工资列表
+salary_by_tenure_bucket = defaultdict(list)
+
+for salary, tenure in salaries_and_tenures:
+     bucket = tenure_bucket(tenure)
+     salary_by_tenure_bucket[bucket].append(salary)
+```
+最后对每一个工作年限分组计算平均值，具体代码如下：
+```python
+average_salary_by_bucket = {
+    tenure_bucket : sum(salaries) / len(salaries)
+    for tenure_bucket, salaries in salary_by_tenure_bucket.iteritems()
+ }
+```
+这样我们可以得到一个更加有意思的结果：
+```python
+{'between two and five': 61500,
+  'less than two': 48000,
+  'more than five': 79166}
+```
+
+现在终于你有了一个可以大声宣传的有趣的事实：“有5年以上工作经验的数据科学家比菜鸟数据科学家可以多挣65%”。
+
+当然，我们必须承认我们的分组标准是粗略选择的。事实上我们真正想说明的是，平均而言，更多的工作经验对于工资的会有积极的影响。更进一步，为了做出一些更加吸引人的有趣事实，或许我们应该对于未来做一些大胆的预测。虽然我们可能并不知道的这些工作年限对应的工资数据。我们将在第 14 章仔细研究这个思路。
+
+### 付费用户
+
+当你吃完午饭回到办公室的时候，负责财务的高管正在等你。她希望能够更好地区分出付费用户和未付费用户。(她已经知道付费用户和未付费用户的用户名，但是没有更进一步的信息。)
+
+你注意到工作年限和是否付费之间似乎存在某种联系。
