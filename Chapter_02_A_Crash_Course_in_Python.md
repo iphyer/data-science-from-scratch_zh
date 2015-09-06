@@ -356,10 +356,12 @@ num_students = len(grades)
 ```
 我们经常使用字典来表示结构化的数据，比如:
 
+```python
 tweet = {
 "users" : "Joelgrus",
 "text"  : "Data Science is Awesome",
 "retweet_count" : 100,
 "hashtags" : ["#data","science","#datascience","#awesome","#yolo"]
 }
+```
 
