@@ -219,3 +219,16 @@ for user_id, interest in interests:
 * 记录下每一个用户在这样的循环中出现的次数
 
 具体实现的代码为：
+```python
+def most_common_interests_with(user_id):
+     return Counter(interested_user_id
+         for interest in interests_by_user_id[user_id]
+         for interested_user_id in user_ids_by_interest[interest]
+         if interested_user_id != user_id)
+```
+
+或许将来，我们可以通过这个方法整合共同朋友和共同兴趣数据来构建一个更加丰富的“你应该知道的数据科学家”的功能。在第 22 章，我们将深入讨论这一点。
+
+### 工资和经验的关系
+
+现在你打算去吃午饭，但是负责公共关系的高管询问你是不是能够提供一些关于数据科学家收入的有趣事实。收入数据当然是非常敏感的数据，所以负责公共关系的高管给你提供的是匿名后的收入数据(单位:美元)和工作年限数据(单位:年)。
