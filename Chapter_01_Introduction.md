@@ -311,3 +311,15 @@ average_salary_by_bucket = {
 当你吃完午饭回到办公室的时候，负责财务的高管正在等你。她希望能够更好地区分出付费用户和未付费用户。(她已经知道付费用户和未付费用户的用户名，但是没有更进一步的信息。)
 
 你注意到工作年限和是否付费之间似乎存在某种联系。
+```python
+0.7     paid
+1.9     unpaid
+2.5     paid
+4.2     unpaid
+6       unpaid
+6.5     unpaid
+7.5     unpaid
+8.1     unpaid
+8.7     paid
+10      paid
+```
