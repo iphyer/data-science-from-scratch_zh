@@ -204,7 +204,10 @@ and this is the third line"""
 
 当程序发生错误的时候，　Python　会捕获并处理异常。如果不处理，这些异常会导致程序崩溃。你可以通过使用`try`和`except`来处理异常：
 ```python
-
+try:
+     print 0 / 0
+except ZeroDivisionError:
+  　print "can not divied by zero"
 ```
 
 ```python
