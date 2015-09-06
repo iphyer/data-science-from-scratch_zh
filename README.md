@@ -14,6 +14,7 @@
 
 个人能力有限，挂一漏万，恳请大家不吝赐教。
 
-weibo:日月人依依
-e-mail:iphyer@163.com
-blog:iphyer.github.io
+* weibo:日月人依依
+* e-mail:iphyer@163.com
+* blog:iphyer.github.io
+
