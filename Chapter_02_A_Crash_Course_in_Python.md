@@ -200,7 +200,9 @@ len(not_tab_string)    #输出结果是２
  and this is the second line
 and this is the third line"""
 ```
+### 异常
 
+当程序发生错误的时候，　Python　会捕获并处理异常。如果不处理，这些异常会导致程序崩溃。你可以通过使用try和except来处理异常：
 ```python
 ```
 
@@ -240,4 +242,6 @@ and this is the third line"""
 ```python
 ```
 
+```python
+```
 
