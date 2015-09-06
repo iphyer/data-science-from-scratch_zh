@@ -338,5 +338,26 @@ except KeyError:
 你可以使用`in`方法来检查一个键是否存在。
 
 ```python
+joel_has_grade = "Joel" in grades #True
+kate_has_grade = "Kate" in grades #False
 ```
+当你使用`get`方法的时候，如果你查找的键不在字典中，则会返回默认值而不是抛出错误。
+```python
+joel_grade =  grades.get( "joel" ,0 ) #结果是80
+kates_grade=grades.get( "Kate" ,0 )   #结果是　０
+no_ones_grade = grades.get("No One")  #给出默认值　None
+```
+同样的，你可以使用方括号给键值对赋值。
+
+grades["Tim"] = 99
+grades["Kate"] = 100
+num_students = len(grades)
+我们经常使用字典来表示结构化的数据，比如:
+
+tweet = {
+"users" : "Joelgrus",
+"text"  : "Data Science is Awesome",
+"retweet_count" : 100,
+"hashtags" : ["#data","science","#datascience","#awesome","#yolo"]
+}
 
