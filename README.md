@@ -14,6 +14,8 @@
 
 如果你想一起翻译，或者交流数据科学的学习心得，联系我们吧！:D
 
+**[开始阅读]()**
+
 ## 翻译人员名单
 * [iphyer](https://github.com/iphyer)
 * [hexcola](https://github.com/hexcola)
