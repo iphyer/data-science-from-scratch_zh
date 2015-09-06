@@ -167,7 +167,14 @@ my_print()        #输出 "my default message"
 
 有时候通过参数名来确定特定参数也是非常有用的，比如：
 ```python
+def subtract(a = 0 , b = 0):
+     return a - b
+subtract(10,5) #输出是5
+subtract(0,5)  #输出是-5
+subtract(b=5)  #输出是-5
 ```
+
+
 ```python
 ```
 ```python
