@@ -349,9 +349,11 @@ no_ones_grade = grades.get("No One")  #给出默认值　None
 ```
 同样的，你可以使用方括号给键值对赋值。
 
+```python
 grades["Tim"] = 99
 grades["Kate"] = 100
 num_students = len(grades)
+```
 我们经常使用字典来表示结构化的数据，比如:
 
 tweet = {
