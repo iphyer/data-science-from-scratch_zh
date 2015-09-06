@@ -7,4 +7,5 @@
 * [第6章：概率](Chapter_6_Probability.md)
 * [第7章：假设和推理](Chapter_7_Hypothesis_and_Inference)
 * [第8章：梯度下降](Chapter_8_Gradient_Descent)
+* 第9章：获取数据
 
