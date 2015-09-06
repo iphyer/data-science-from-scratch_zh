@@ -80,7 +80,7 @@ IndentationError: unexpected indent
 ```
 因为交互解释器认为空行代表了`for`循环的结束。
 
-当然如果利用`Ipython`的话就可以体验`Ipython`自带的 %paste函数，%paste函数可以正确的系统剪贴板上的任意内容到交互解释器中，包括空格和其他格式。单单这点就值得你使用Ipython来编辑你的 Python 代码。
+当然如果利用`Ipython`的话就可以体验`Ipython`自带的 `%paste`函数，`%paste`函数可以正确的系统剪贴板上的任意内容到交互解释器中，包括空格和其他格式。单单这点就值得你使用`Ipython`来编辑你的 Python 代码。
 
 ### 模块
 
