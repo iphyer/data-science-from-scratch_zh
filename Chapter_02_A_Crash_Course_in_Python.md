@@ -100,6 +100,8 @@ my_regex = re.compile("[0-9]+",re.I)
 import re as regex
 my_regex = regex.compile("[0-9]+",re.I)
 ```
+通常在你的模块名比较难以记住或者需要输入很多字符的时候，你会使用上面的第二种方法导入特定的模块。比如，当我们使用 `matplotlib` 可视化数据的时候，通常我们这样导入需要的模块：
+
 ```python
 ```
 ```python
