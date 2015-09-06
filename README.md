@@ -3,8 +3,6 @@
 > 尊重作者的辛勤劳动，请到这里[购买](http://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X)
 ![](Screen Shot 2015-09-06 at 8.09.51 PM.png)
 
-
-
 我在自学的过程中，遇到不少有趣的资源，比如在[Jason的网站](http://machinelearningmastery.com/)找到的对出于不同目标，不同背景学习机器学习的小伙伴划分派系（查看：[Find Your Machine Learning Tribe: Get Started And Avoid Getting The Wrong Advice](http://machinelearningmastery.com/machine-learning-tribe/)）从而更具有针对性的开始和深入。
 
 作为一个（数学底子不扎实的）程序猿 :(，深刻体会到先去学习线性代数、概率论、统计学然后再开始机器学习是有多么枯燥和沮丧，Jason的观点 [Machine Learning for Programmers: Leap from developer to machine learning practitioner](http://machinelearningmastery.com/machine-learning-for-programmers/) 绝对是让人眼前一亮，在挖他得博文时知道了**[Data Science From Scratch: First Principles with Python](http://joelgrus.com/2015/04/26/data-science-from-scratch-first-principles-with-python/)** 这本书，在今年近5月份出版，现在还没有中文版。
