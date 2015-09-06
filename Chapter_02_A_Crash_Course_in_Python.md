@@ -11,7 +11,7 @@
 
 ### 获取 Python
 
-你可以直接从 [Python.org](https://www.python.org/) 下载 Python。 但是如果你的机器上还有 Python， 我特别推荐你直接安装 Anaconda 这个 Python 发行版, 因为 Anaconda 几乎已经包括了所有你可能在数据科学中用到的 Python 包。
+你可以直接从 [Python.org](https://www.python.org/) 下载 Python。 但是如果你的机器上还有 Python， 我特别推荐你直接安装 [Anaconda](https://store.continuum.io/cshop/anaconda/) 这个 Python 发行版, 因为 Anaconda 几乎已经包括了所有你可能在数据科学中用到的 Python 包。
 
 在我写作本书的时候，最新的 Python 版本已经升级到了 3.4 。但是在 DataSciencester 我们使用更加可靠的老版本， Python 2.7 。 Python 3 并不向后兼容 Python 2 而很多重要的软件包只能在 Python 2.7 下工作。 数据科学社区依然坚守在 Python 2.7 的版本上，这也意味着我们不得不遵守这个传统。 请确保你已经安装了正确的 Python 版本。
 
