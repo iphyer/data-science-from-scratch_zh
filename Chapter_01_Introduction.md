@@ -164,3 +164,51 @@ def friends_of_friend_ids(user):
 
 print friends_of_friend_ids(users[3]) # Counter({0: 2, 5: 1})
 ```
+这个输出结果正确地说明用户 Chi (id 为 3 ) 和用户 Hero ( id 为 0 ) 之间有 2 个共同朋友，而和用户 Clive ( id 为 5) 只有 1 个共同用户。
+
+作为一个数据科学家，你知道大家都喜欢遇到和自己有共同兴趣的人。(事实上，下面要做的这个小探索是对数据科学家需要掌握的专业技能的精彩展示。) 通过咨询朋友，你得到了如下的数据，这个列表的每一个元素都包括一个由用户 id 和兴趣 interest 组成的元组 。
+```python
+interests = [
+(0, "Hadoop"), (0, "Big Data"), (0, "HBase"), (0, "Java"),
+(0, "Spark"), (0, "Storm"), (0, "Cassandra"),
+(1, "NoSQL"), (1, "MongoDB"), (1, "Cassandra"), (1, "HBase"),
+(1, "Postgres"), (2, "Python"), (2, "scikit-learn"), (2, "scipy"),
+(2, "numpy"), (2, "statsmodels"), (2, "pandas"), (3, "R"), (3, "Python"),
+(3, "statistics"), (3, "regression"), (3, "probability"),
+(4, "machine learning"), (4, "regression"), (4, "decision trees"),
+(4, "libsvm"), (5, "Python"), (5, "R"), (5, "Java"), (5, "C++"),
+(5, "Haskell"), (5, "programming languages"), (6, "statistics"),
+(6, "probability"), (6, "mathematics"), (6, "theory"),
+(7, "machine learning"), (7, "scikit-learn"), (7, "Mahout"),
+(7, "neural networks"), (8, "neural networks"), (8, "deep learning"),
+(8, "Big Data"), (8, "artificial intelligence"), (9, "Hadoop"),
+(9, "Java"), (9, "MapReduce"), (9, "Big Data")
+]
+```
+比如，用户 Thor ( id 为 4 ) 和用户 Devin ( id 为 7 ) 没有任何相同的朋友，但是他们都对于机器学习有兴趣。
+
+非常容易地我们就可以构建一个函数寻找有相同兴趣的用户：
+```python
+def data_scientists_who_like(target_interest):
+    return [user_id
+        for user_id, user_interest in interests
+        if user_interest == target_interest]
+```
+虽然上面的方法可以正确得出我们期望的结果，但是每一次都必须遍历整个兴趣列表。如果我们有很多的用户和兴趣对或者我们希望做大量的查找，这样的程序效率就比较低来。因此，我们应该专门建立一个从兴趣到用户的检索：
+```python
+from collections import defaultdict
+
+# 字典的键是兴趣，值是对该兴趣感兴趣用户名列表
+user_ids_by_interest = defaultdict(list)
+
+for user_id, interest in interests:
+    user_ids_by_interest[interest].append(user_id)
+```
+另一种形式是从用户到兴趣的检索：
+```python
+# 键是用户名，值是该用户的兴趣列表
+interests_by_user_id = defaultdict(list)
+
+for user_id, interest in interests:
+   interests_by_user_id[user_id].append(interest)
+```
