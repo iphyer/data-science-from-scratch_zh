@@ -13,4 +13,5 @@
 * [第12章：k近邻算法](Chapter_12_k_Nearest_Neighbors.md)
 * [第13章：朴素贝叶斯](Chapter_13_Naive_Bayes.md)
 * [第14章：简单线性回归](Chapter_14_Simple_Linear_Regression.md)
+* 第15章：多元回归
 
