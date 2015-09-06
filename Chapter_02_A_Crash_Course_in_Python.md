@@ -40,10 +40,10 @@ Python 是一门有着自己独特设计理念的语言，这些设计理念通�
 许多语言习惯使用花括号来表示程序块的起始与结束。但是 Python 使用缩进，比如：
 ```python
 for i in [1,2,3,    4,5]:
-      print    i                       #    对 i 做循环
+      print    i                    #    对 i 做循环
       for j in [1,    2,3,4,5]:
-          print j                    #    对 j 做循环
-          print i + j                 #    对 j 做循环的最后一行代码
-      print    i                         #    对 i 做循环的最后一行代码
+          print j                   #    对 j 做循环
+          print i + j               #    对 j 做循环的最后一行代码
+      print    i                    #    对 i 做循环的最后一行代码
 print    "done looping"
 ```
