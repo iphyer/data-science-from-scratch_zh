@@ -117,7 +117,15 @@ The range is zero precisely when the max and min are equal, which can only happe
 Like the median, the range doesn’t really depend on the whole data set. A data set whose points are all either 0 or 100 has the same range as a data set whose values are 0, 100, and lots of 50s. But it seems like the first data set “should” be more spread out.
 A more complex measure of dispersion is the variance, which is computed as:
 ```python
-
+def de_mean(x):
+"""translate x by subtracting its mean (so the result has mean 0)""" x_bar = mean(x)
+return [x_i - x_bar for x_i in x]
+def variance(x):
+"""assumes x has at least two elements"""
+n = len(x)
+deviations = de_mean(x)
+return sum_of_squares(deviations) / (n - 1)
+variance(num_friends) # 81.54
 ```
 ## Correlation
 ## Simpson's Paradox
