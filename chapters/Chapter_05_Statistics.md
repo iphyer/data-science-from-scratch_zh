@@ -186,7 +186,16 @@ Figure 5-2
 The person with 100 friends (who spends only one minute per day on the site) is a huge outlier, and correlation can be very sensitive to outliers. What happens if we ignore him?
 
 ```python
-
+outlier = num_friends.index(100) # index of outlier
+num_friends_good = [x
+                    for i, x in enumerate(num_friends)
+                    if i != outlier]
+                    
+daily_minutes_good = [x
+                    for i, x in enumerate(daily_minutes)
+                    if i != outlier]
+                    
+correlation(num_friends_good, daily_minutes_good) # 0.57
 ```
 
 ## Simpson's Paradox
