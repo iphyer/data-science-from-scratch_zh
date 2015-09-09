@@ -227,4 +227,6 @@ The function repeatedly bisects intervals until it narrows in on a Z that’s cl
 
 
 ## The Central Limit Theorem
+One reason the normal distribution is so useful is the central limit theorem, which says (in essence) that a random variable defined as the average of a large number of independent and identically distributed random variables is itself approximately nor‐ mally distributed.
+In particular, if x1, ..., xn are random variables with mean μ and standard deviation σ, and if n is large, then:
 ## For Further Exploration
