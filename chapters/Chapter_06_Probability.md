@@ -270,5 +270,5 @@ for i in xs] plt.plot(xs,ys)
     plt.title("Binomial Distribution vs. Normal Approximation")
     plt.show()
 ```
-
+For example, when you call `make_hist(0.75, 100, 10000)`, you get the graph in Figure 6-4.
 ## For Further Exploration
