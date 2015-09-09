@@ -129,6 +129,9 @@ def variance(x):
     
 variance(num_friends) # 81.54
 ```
+
+> This looks like it is almost the average squared deviation from the mean, except that we’re dividing by n-1 instead of n. In fact, when we’re dealing with a sample from a larger population, x_bar is only an estimate of the actual mean, which means that on average (x_i - x_bar) ** 2 is an underestimate of x_i’s squared deviation from the mean, which is why we divide by n-1 instead of n. See Wikipe‐ dia.
+
 ## Correlation
 ## Simpson's Paradox
 ## Some Other Correlational Caveats
