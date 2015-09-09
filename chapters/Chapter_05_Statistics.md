@@ -222,6 +222,11 @@ A correlation of zero indicates that there is no linear relationship between the
 x = [-2, -1, 0, 1, 2] 
 y = [2, 1,0,1,2]
 ```
-then x and y have zero correlation. But they certainly have a relationship—each ele‐ ment of y equals the absolute value of the corresponding element of x. What they
+then x and y have zero correlation. But they certainly have a relationship—each ele‐ ment of y equals the absolute value of the corresponding element of x. What they don’t have is a relationship in which knowing how x_i compares to mean(x) gives us information about how y_i compares to mean(y). That is the sort of relationship that correlation looks for.
+In addition, correlation tells you nothing about how large the relationship is. The variables:
+```python
+x = [-2, 1, 0, 1, 2]
+y = [99.98, 99.99, 100, 100.01, 100.02]
+```
 ## Correlation and Causation
 ## For Further Exploration
