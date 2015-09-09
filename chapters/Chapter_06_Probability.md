@@ -253,7 +253,7 @@ The central limit theorem says that as n gets large, a Binomial(n,p) variable is
  If we plot both, you can easily see the resemblance:
  
  ```python
- def make_hist(p, n, num_points):
+def make_hist(p, n, num_points):
 data = [binomial(n, p) for _ in range(num_points)]
     # use a bar chart to show the actual binomial samples
 histogram = Counter(data)
