@@ -65,10 +65,11 @@ We can check this by “generating” a lot of families:
 
 ```python
 def random_kid():
-return random.choice(["boy", "girl"])
-    both_girls = 0
-    older_girl = 0
-    either_girl = 0
+    return random.choice(["boy", "girl"])
+
+both_girls = 0
+older_girl = 0
+either_girl = 0
 random.seed(0)
 for _ in range(10000):
     younger = random_kid() 
