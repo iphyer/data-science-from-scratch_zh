@@ -48,6 +48,8 @@ Unfortunately, this chart is still too difficult to slip into conversations. So 
 num_points = len(num_friends) # 204
 ```
 You’re probably also interested in the largest and smallest values:
+
+
 ```python
 largest_value = max(num_friends) # 100 
 smallest_value = min(num_friends) # 1
