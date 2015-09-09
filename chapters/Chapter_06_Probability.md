@@ -138,6 +138,7 @@ Because there are infinitely many numbers between 0 and 1, this means that the w
 
 The density function for the uniform distribution is just:
 ```python
+
 ```
 
 ## The Normal Distribution
