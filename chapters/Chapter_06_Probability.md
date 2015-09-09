@@ -26,6 +26,8 @@ When two events E and F are independent, then by definition we have:
 ```
 P(E,F) = P(E)P(F)
 ```
+If they are not necessarily independent (and if the probability of F is not zero), then we define the probability of E “conditional on F” as:
+
 ## Bayes's Theorem
 ## Random Variables
 ## Continuous Distributions
