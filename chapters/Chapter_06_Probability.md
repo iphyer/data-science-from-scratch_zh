@@ -110,6 +110,10 @@ Here we know that P T D , the probability that someone with the disease tests po
 ```
 P(D|T) = 0.98%
 ```
+That is, less than 1% of the people who test positive actually have the disease.
+
+> This assumes that people take the test more or less at random. If only people with certain symptoms take the test we would instead have to condition on the event “positive test and symptoms” and the number would likely be a lot higher.
+
 
 ## Random Variables
 ## Continuous Distributions
