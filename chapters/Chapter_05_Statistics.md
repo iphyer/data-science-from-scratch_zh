@@ -74,6 +74,9 @@ else:
     return (sorted_v[lo] + sorted_v[hi]) / 2
 median(num_friends) # 6.0
 ```
+
+Clearly, the mean is simpler to compute, and it varies smoothly as our data changes. If we have n data points and one of them increases by some small amount e, then neces‐ sarily the mean will increase by e / n. (This makes the mean amenable to all sorts of calculus tricks.) Whereas in order to find the median, we have to sort our data. And changing one of our data points by a small amount e might increase the median by e, by some number less than e, or not at all (depending on the rest of the data).
+
 ### Dispersion
 
 ## Correlation
