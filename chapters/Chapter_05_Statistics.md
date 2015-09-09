@@ -242,6 +242,6 @@ For instance, if you don’t mind being angrily accused of [experimenting on you
 * [SciPy](http://docs.scipy.org/doc/scipy/reference/stats.html), [pandas](http://pandas.pydata.org), and [StatsModels](http://statsmodels.sourceforge.net) all come with a wide variety of statistical func‐ tions.
 
 * Statistics is important. (Or maybe statistics are important?) If you want to be a good data scientist it would be a good idea to read a statistics textbook. Many are freely available online. A couple that I like are:
-— OpenIntro Statistics
+— [OpenIntro Statistics](https://www.openintro.org/stat/textbook.php)
 — OpenStax Introductory Statistics
 
