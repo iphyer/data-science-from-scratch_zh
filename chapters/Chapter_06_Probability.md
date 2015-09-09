@@ -254,12 +254,13 @@ The central limit theorem says that as n gets large, a Binomial(n,p) variable is
  
  ```python
 def make_hist(p, n, num_points):
-data = [binomial(n, p) for _ in range(num_points)]
+    data = [binomial(n, p) for _ in range(num_points)]
     # use a bar chart to show the actual binomial samples
-histogram = Counter(data)
-plt.bar([x - 0.4 for x in histogram.keys()],
-[v / num_points for v in histogram.values()], 0.8,
-color='0.75')
+    histogram = Counter(data)
+    plt.bar([x - 0.4 for x in histogram.keys()],
+            [v / num_points for v in histogram.values()], 
+            0.8,
+            color='0.75')
     mu = p * n
     sigma = math.sqrt(n * p * (1 - p))
     # use a line chart to show the normal approximation
