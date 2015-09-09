@@ -278,4 +278,4 @@ The moral of this approximation is that if you want to know the probability that
 ## For Further Exploration
 * [scipy.stats](http://docs.scipy.org/doc/scipy/reference/stats.html) contains pdf and cdf functions for most of the popular probability distributions.
 
-* Remember how, at the end of [Chapter 5](), I said that it would be a good idea to study a statistics textbook? It would also be a good idea to study a probability textbook. The best one I know that’s available online is Introduction to Probabil‐ ity.
+* Remember how, at the end of [Chapter 5](), I said that it would be a good idea to study a statistics textbook? It would also be a good idea to study a probability textbook. The best one I know that’s available online is Introduction to Probability.
