@@ -205,6 +205,17 @@ You investigate further and discover that the outlier was actually an internal t
 One not uncommon surprise when analyzing data is Simpson’s Paradox, in which correlations can be misleading when confounding variables are ignored.
 For example, imagine that you can identify all of your members as either East Coast data scientists or West Coast data scientists. You decide to examine which coast’s data scientists are friendlier:
 
+pic
+
+It certainly looks like the West Coast data scientists are friendlier than the East Coast data scientists. Your coworkers advance all sorts of theories as to why this might be: maybe it’s the sun, or the coffee, or the organic produce, or the laid-back Pacific vibe?
+When playing with the data you discover something very strange. If you only look at people with PhDs, the East Coast data scientists have more friends on average. And if you only look at people without PhDs, the East Coast data scientists also have more friends on average!
+
+pic
+
+Once you account for the users’ degrees, the correlation goes in the opposite direc‐ tion! Bucketing the data as East Coast/West Coast disguised the fact that the East Coast data scientists skew much more heavily toward PhD types.
+This phenomenon crops up in the real world with some regularity. The key issue is that correlation is measuring the relationship between your two variables all else being equal. If your data classes are assigned at random, as they might be in a well-designed experiment, “all else being equal” might not be a terrible assumption. But when there is a deeper pattern to class assignments, “all else being equal” can be an awful assump‐ tion.
+The only real way to avoid this is by knowing your data and by doing what you can to make sure you’ve checked for possible confounding factors. Obviously, this is not always possible. If you didn’t have the educational attainment of these 200 data scien‐ tists, you might simply conclude that there was something inherently more sociable about the West Coast.
+
 ## Some Other Correlational Caveats
 ## Correlation and Causation
 ## For Further Exploration
