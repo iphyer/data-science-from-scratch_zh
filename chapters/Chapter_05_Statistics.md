@@ -1,6 +1,10 @@
 # Chapter 5 统计
 
+> Facts are stubborn, but statistics are more pliable.
+> Mark Twain
+
 ## 描述单个数据集合
+
 ### Central Tendencies
 ### Dispersion
 
