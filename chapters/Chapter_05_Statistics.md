@@ -126,6 +126,7 @@ def variance(x):
     n = len(x)
     deviations = de_mean(x)
     return sum_of_squares(deviations) / (n - 1)
+    
 variance(num_friends) # 81.54
 ```
 ## Correlation
