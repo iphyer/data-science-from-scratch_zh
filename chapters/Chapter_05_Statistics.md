@@ -132,6 +132,13 @@ variance(num_friends) # 81.54
 
 > This looks like it is almost the average squared deviation from the mean, except that we’re dividing by n-1 instead of n. In fact, when we’re dealing with a sample from a larger population, x_bar is only an estimate of the actual mean, which means that on average (x_i - x_bar) ** 2 is an underestimate of x_i’s squared deviation from the mean, which is why we divide by n-1 instead of n. See Wikipe‐ dia.
 
+Now, whatever units our data is in (e.g., “friends”), all of our measures of central ten‐ dency are in that same unit. The range will similarly be in that same unit. The var‐ iance, on the other hand, has units that are the square of the original units (e.g., “friends squared”). As it can be hard to make sense of these, we often look instead at the standard deviation:
+
+```python
+def standard_deviation(x):
+    return math.sqrt(variance(x))
+standard_deviation(num_friends) # 9.03
+```
 ## Correlation
 ## Simpson's Paradox
 ## Some Other Correlational Caveats
