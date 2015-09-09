@@ -223,6 +223,7 @@ low_z, low_p = mid_z, mid_p elif mid_p > p:
 hi_z, hi_p = mid_z, mid_p else:
 break return mid_z
 ```
+The function repeatedly bisects intervals until it narrows in on a Z that’s close enough to the desired probability.
 
 ## The Central Limit Theorem
 ## For Further Exploration
