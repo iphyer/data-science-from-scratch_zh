@@ -169,6 +169,9 @@ def normal_pdf(x, mu=0, sigma=1):
     return (math.exp(-(x-mu) ** 2 / 2 / sigma ** 2) / (sqrt_two_pi * sigma))
 
 ```
+In Figure 6-2, we plot some of these pdfs to see what they look like:
+```python
+```
 
 ## The Central Limit Theorem
 ## For Further Exploration
