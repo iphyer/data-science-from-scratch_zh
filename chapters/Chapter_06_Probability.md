@@ -161,6 +161,12 @@ The normal distribution is the king of distributions. It is the classic bell cur
 It has the distribution function:
 
 which we can implement as:
+```python
+def normal_pdf(x, mu=0, sigma=1):
+    sqrt_two_pi = math.sqrt(2 * math.pi)
+    return (math.exp(-(x-mu) ** 2 / 2 / sigma ** 2) / (sqrt_two_pi * sigma))
+
+```
 
 ## The Central Limit Theorem
 ## For Further Exploration
