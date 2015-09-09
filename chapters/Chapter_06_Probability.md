@@ -138,7 +138,8 @@ Because there are infinitely many numbers between 0 and 1, this means that the w
 
 The density function for the uniform distribution is just:
 ```python
-
+def uniform_pdf(x):
+    return 1 if x >= 0 and x < 1 else 0
 ```
 
 ## The Normal Distribution
