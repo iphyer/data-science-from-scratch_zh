@@ -243,5 +243,5 @@ For instance, if you don’t mind being angrily accused of [experimenting on you
 
 * Statistics is important. (Or maybe statistics are important?) If you want to be a good data scientist it would be a good idea to read a statistics textbook. Many are freely available online. A couple that I like are:
 — [OpenIntro Statistics](https://www.openintro.org/stat/textbook.php)
-— OpenStax Introductory Statistics
+— [OpenStax Introductory Statistics](https://www.openstaxcollege.org/textbooks/introductory-statistics)
 
