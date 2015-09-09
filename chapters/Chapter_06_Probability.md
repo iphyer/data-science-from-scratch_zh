@@ -127,6 +127,8 @@ Random variables can be conditioned on events just as other events can. Going ba
 
 We can define a new random variable Y that gives the number of girls conditional on at least one of the children being a girl. Then Y equals 1 with probability 2/3 and 2 with probability 1/3. And a variable Z that’s the number of girls conditional on the older child being a girl equals 1 with probability 1/2 and 2 with probability 1/2.
 
+For the most part, we will be using random variables implicitly in what we do without calling special attention to them. But if you look deeply you’ll see them.
+
 ## Continuous Distributions
 ## The Normal Distribution
 ## The Central Limit Theorem
