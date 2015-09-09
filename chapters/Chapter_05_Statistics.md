@@ -61,7 +61,8 @@ We’ll also sometimes be interested in the median, which is the middle-most val
 For instance, if we have five data points in a sorted vector x, the median is x[5 // 2] or x[2]. If we have six data points, we want the average of x[2] (the third point) and x[3] (the fourth point).
 Notice that—unlike the mean—the median doesn’t depend on every value in your data. For example, if you make the largest point larger (or the smallest point smaller), the middle points remain unchanged, which means so does the median.
 The median function is slightly more complicated than you might expect, mostly because of the “even” case:
-
+```python
+```
 ### Dispersion
 
 ## Correlation
