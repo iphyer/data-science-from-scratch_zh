@@ -87,7 +87,8 @@ print "P(both | either): ", both_girls / either_girl # 0.342 ~ 1/3
 ```
 ## Bayes's Theorem
 One of the data scientist’s best friends is Bayes’s Theorem, which is a way of “revers‐ ing” conditional probabilities. Let’s say we need to know the probability of some event E conditional on some other event F occurring. But we only have information about the probability of F conditional on E occurring. Using the definition of conditional probability twice tells us that:
-
+```
+```
 ## Random Variables
 ## Continuous Distributions
 ## The Normal Distribution
