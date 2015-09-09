@@ -62,6 +62,16 @@ For instance, if we have five data points in a sorted vector x, the median is x[
 Notice that—unlike the mean—the median doesn’t depend on every value in your data. For example, if you make the largest point larger (or the smallest point smaller), the middle points remain unchanged, which means so does the median.
 The median function is slightly more complicated than you might expect, mostly because of the “even” case:
 ```python
+def median(v):
+"""finds the 'middle-most' value of v""" n = len(v)
+sorted_v = sorted(v)
+midpoint = n // 2
+if n % 2 == 1:
+# if odd, return the middle value return sorted_v[midpoint]
+else:
+# if even, return the average of the middle values lo = midpoint - 1
+hi = midpoint
+return (sorted_v[lo] + sorted_v[hi]) / 2
 ```
 ### Dispersion
 
