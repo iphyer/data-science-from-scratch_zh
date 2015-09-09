@@ -271,4 +271,8 @@ for i in xs] plt.plot(xs,ys)
     plt.show()
 ```
 For example, when you call `make_hist(0.75, 100, 10000)`, you get the graph in Figure 6-4.
+!Figure
+The moral of this approximation is that if you want to know the probability that (say) a fair coin turns up more than 60 heads in 100 flips, you can estimate it as the proba‐ bility that a Normal(50,5) is greater than 60, which is easier than computing the Bino‐ mial(100,0.5) cdf. (Although in most applications you’d probably be using statistical software that would gladly compute whatever probabilities you want.)
+
+
 ## For Further Exploration
