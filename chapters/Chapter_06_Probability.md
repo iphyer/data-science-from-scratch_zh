@@ -122,6 +122,7 @@ A random variable is a variable whose possible values have an associated probabi
 The associated distribution gives the probabilities that the variable realizes each of its possible values. The coin flip variable equals 0 with probability 0.5 and 1 with proba‐ bility 0.5. The range(10) variable has a distribution that assigns probability 0.1 to each of the numbers from 0 to 9.
 
 We will sometimes talk about the expected value of a random variable, which is the average of its values weighted by their probabilities. The coin flip variable has an expected value of 1/2 (= 0 * 1/2 + 1 * 1/2), and the range(10) variable has an expected value of 4.5.
+
 Random variables can be conditioned on events just as other events can. Going back to the two-child example from “Conditional Probability” on page 70, if X is the ran‐ dom variable representing the number of girls, X equals 0 with probability 1/4, 1 with probability 1/2, and 2 with probability 1/4.
 
 We can define a new random variable Y that gives the number of girls conditional on at least one of the children being a girl. Then Y equals 1 with probability 2/3 and 2 with probability 1/3. And a variable Z that’s the number of girls conditional on the older child being a girl equals 1 with probability 1/2 and 2 with probability 1/2.
