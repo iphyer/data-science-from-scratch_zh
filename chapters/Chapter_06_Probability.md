@@ -203,5 +203,7 @@ plt.plot(xs,[normal_cdf(x,sigma=1) for x in xs],'-',label='mu=0,sigma=1') plt.pl
 plt.title("Various Normal cdfs")
 plt.show()
 ```
+Sometimes we’ll need to invert normal_cdf to find the value corresponding to a specified probability. There’s no simple way to compute its inverse, but normal_cdf is continuous and strictly increasing, so we can use a [binary search]():
+
 ## The Central Limit Theorem
 ## For Further Exploration
