@@ -90,6 +90,11 @@ One of the data scientist’s best friends is Bayes’s Theorem, which is a way 
 ```
 P(E|F)=P(E,F)|P(F)=P(E|F)P(E)/P(F)
 ```
+The event F can be split into the two mutually exclusive events “F and E” and “F and
+not E.” If we write ¬E for “not E” (i.e., “E doesn’t happen”), then:
+```
+
+```
 ## Random Variables
 ## Continuous Distributions
 ## The Normal Distribution
