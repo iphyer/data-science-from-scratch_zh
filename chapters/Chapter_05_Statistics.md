@@ -197,6 +197,7 @@ daily_minutes_good = [x
                     
 correlation(num_friends_good, daily_minutes_good) # 0.57
 ```
+Without the outlier, there is a much stronger correlation (Figure 5-3).
 
 ## Simpson's Paradox
 ## Some Other Correlational Caveats
