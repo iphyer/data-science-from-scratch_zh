@@ -217,5 +217,8 @@ This phenomenon crops up in the real world with some regularity. The key issue i
 The only real way to avoid this is by knowing your data and by doing what you can to make sure you’ve checked for possible confounding factors. Obviously, this is not always possible. If you didn’t have the educational attainment of these 200 data scien‐ tists, you might simply conclude that there was something inherently more sociable about the West Coast.
 
 ## Some Other Correlational Caveats
+A correlation of zero indicates that there is no linear relationship between the two variables. However, there may be other sorts of relationships. For example, if:
+```python
+```
 ## Correlation and Causation
 ## For Further Exploration
