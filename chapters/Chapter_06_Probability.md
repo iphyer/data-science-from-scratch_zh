@@ -103,6 +103,8 @@ which is how Bayes’s Theorem is often stated.
 This theorem often gets used to demonstrate why data scientists are smarter than doctors. Imagine a certain disease that affects 1 in every 10,000 people. And imagine that there is a test for this disease that gives the correct result (“diseased” if you have the disease, “nondiseased” if you don’t) 99% of the time.
 What does a positive test mean? Let’s use T for the event “your test is positive” and D for the event “you have the disease.” Then Bayes’s Theorem says that the probability that you have the disease, conditional on testing positive, is:
 
+```
+P(D|T) = P(T|D)P(D)/[P(T|D)P(D) + P(T|-D)P(-D)]
 ## Random Variables
 ## Continuous Distributions
 ## The Normal Distribution
