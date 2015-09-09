@@ -42,7 +42,7 @@ Unfortunately, this chart is still too difficult to slip into conversations. So 
 
 不幸的是，图表也不能很好的说明问题
 
-于是你开始生成统计信息
+于是你开始生成统计信息。也许最简单的统计信息是数据量
 
 ```python
 num_points = len(num_friends) # 204
