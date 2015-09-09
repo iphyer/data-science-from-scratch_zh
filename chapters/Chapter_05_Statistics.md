@@ -228,5 +228,7 @@ In addition, correlation tells you nothing about how large the relationship is. 
 x = [-2, 1, 0, 1, 2]
 y = [99.98, 99.99, 100, 100.01, 100.02]
 ```
+are perfectly correlated, but (depending on what you’re measuring) it’s quite possible that this relationship isn’t all that interesting.
+
 ## Correlation and Causation
 ## For Further Exploration
