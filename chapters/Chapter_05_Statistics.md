@@ -161,7 +161,13 @@ def covariance(x, y):
     n = len(x)
     return dot(de_mean(x), de_mean(y)) / (n - 1) covariance(num_friends, daily_minutes) # 22.43
 ```
-Recall that dot sums up the products of corresponding pairs of elements. When cor‐ responding elements of x and y are either both above their means or both below their means, a positive number enters the sum. When one is above its mean and the other
+Recall that dot sums up the products of corresponding pairs of elements. When cor‐ responding elements of x and y are either both above their means or both below their means, a positive number enters the sum. When one is above its mean and the other below, a negative number enters the sum. Accordingly, a “large” positive covariance means that x tends to be large when y is large and small when y is small. A “large” negative covariance means the opposite—that x tends to be small when y is large and vice versa. A covariance close to zero means that no such relationship exists.
+Nonetheless, this number can be hard to interpret, for a couple of reasons:
+
+* Its units are the product of the inputs’ units (e.g., friend-minutes-per-day), which can be hard to make sense of. (What’s a “friend-minute-per-day”?)
+* If each user had twice as many friends (but the same number of minutes), the covariance would be twice as large. But in a sense the variables would be just as interrelated. Said differently, it’s hard to say what counts as a “large” covariance.
+
+For this reason, it’s more common to look at the correlation, which divides out the standard deviations of both variables:
 
 ## Simpson's Paradox
 ## Some Other Correlational Caveats
