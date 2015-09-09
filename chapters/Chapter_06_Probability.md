@@ -190,7 +190,7 @@ Z= X−μ/σ
 ```
 is a standard normal variable.
 
-The cumulative distribution function for the normal distribution cannot be written in an “elementary” manner, but we can write it using [Python’s math.erf]():
+The cumulative distribution function for the normal distribution cannot be written in an “elementary” manner, but we can write it using [Python’s math.erf](https://en.wikipedia.org/wiki/Error_function):
 ```python
 
 def normal_cdf(x, mu=0,sigma=1):
