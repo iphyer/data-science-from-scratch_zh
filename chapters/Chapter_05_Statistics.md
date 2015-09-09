@@ -41,8 +41,13 @@ smallest_value = min(num_friends) # 1
 ```
 which are just special cases of wanting to know the values in specific positions:
 ```python
-
+sorted_values = sorted(num_friends)
+    smallest_value = sorted_values[0]           # 1
+    second_smallest_value = sorted_values[1]    # 1
+    second_largest_value = sorted_values[-2]    # 49
 ```
+But we’re only getting started.
+Central Tendencies
 ### Central Tendencies
 ### Dispersion
 
