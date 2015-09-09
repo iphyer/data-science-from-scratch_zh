@@ -199,6 +199,8 @@ correlation(num_friends_good, daily_minutes_good) # 0.57
 ```
 Without the outlier, there is a much stronger correlation (Figure 5-3).
 
+You investigate further and discover that the outlier was actually an internal test account that no one ever bothered to remove. So you feel pretty justified in excluding it.
+
 ## Simpson's Paradox
 ## Some Other Correlational Caveats
 ## Correlation and Causation
