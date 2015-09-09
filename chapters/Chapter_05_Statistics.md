@@ -47,7 +47,7 @@ sorted_values = sorted(num_friends)
     second_largest_value = sorted_values[-2]    # 49
 ```
 But we’re only getting started.
-Central Tendencies
+
 ### Central Tendencies
 ### Dispersion
 
