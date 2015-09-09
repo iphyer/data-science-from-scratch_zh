@@ -154,6 +154,12 @@ which is quite plainly unaffected by a small number of outliers.
 DataSciencester’s VP of Growth has a theory that the amount of time people spend on the site is related to the number of friends they have on the site (she’s not a VP for nothing), and she’s asked you to verify this.
 After digging through traffic logs, you’ve come up with a list daily_minutes that shows how many minutes per day each user spends on DataSciencester, and you’ve ordered it so that its elements correspond to the elements of our previous num_friends list. We’d like to investigate the relationship between these two metrics.
 We’ll first look at covariance, the paired analogue of variance. Whereas variance measures how a single variable deviates from its mean, covariance measures how two variables vary in tandem from their means:
+
+```python
+
+def covariance(x, y): n = len(x)
+return dot(de_mean(x), de_mean(y)) / (n - 1) covariance(num_friends, daily_minutes) # 22.43
+```
 ## Simpson's Paradox
 ## Some Other Correlational Caveats
 ## Correlation and Causation
