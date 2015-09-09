@@ -202,6 +202,9 @@ Without the outlier, there is a much stronger correlation (Figure 5-3).
 You investigate further and discover that the outlier was actually an internal test account that no one ever bothered to remove. So you feel pretty justified in excluding it.
 
 ## Simpson's Paradox
+One not uncommon surprise when analyzing data is Simpson’s Paradox, in which correlations can be misleading when confounding variables are ignored.
+For example, imagine that you can identify all of your members as either East Coast data scientists or West Coast data scientists. You decide to examine which coast’s data scientists are friendlier:
+
 ## Some Other Correlational Caveats
 ## Correlation and Causation
 ## For Further Exploration
