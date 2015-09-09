@@ -110,7 +110,7 @@ Dispersion refers to measures of how spread out our data is. Typically they’re
 ```python
 # "range" already means something in Python, so we'll use a different name
 def data_range(x):
-return max(x) - min(x)
+    return max(x) - min(x)
 data_range(num_friends) # 99
 ```
 
