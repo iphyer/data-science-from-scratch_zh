@@ -49,6 +49,13 @@ sorted_values = sorted(num_friends)
 But we’re only getting started.
 
 ### Central Tendencies
+Usually, we’ll want some notion of where our data is centered. Most commonly we’ll use the mean (or average), which is just the sum of the data divided by its count:
+```python
+ # this isn't right if you don't from __future__ import division
+def mean(x):
+return sum(x) / len(x)
+mean(num_friends) # 7.333333
+```
 ### Dispersion
 
 ## Correlation
