@@ -239,7 +239,7 @@ One way to feel more confident about causality is by conducting randomized trial
 For instance, if you don’t mind being angrily accused of [experimenting on your users](http://www.nytimes.com/2014/06/30/technology/facebook-tinkers-with-users-emotions-in-news-feed-experiment-stirring-outcry.html?_r=1), you could randomly choose a subset of your users and show them content from only a fraction of their friends. If this subset subsequently spent less time on the site, this would give you some confidence that having more friends causes more time on the site.
 
 ## For Further Exploration
-* SciPy, pandas, and StatsModels all come with a wide variety of statistical func‐ tions.
+* [SciPy](http://docs.scipy.org/doc/scipy/reference/stats.html), [pandas](), and [StatsModels]() all come with a wide variety of statistical func‐ tions.
 
 * Statistics is important. (Or maybe statistics are important?) If you want to be a good data scientist it would be a good idea to read a statistics textbook. Many are freely available online. A couple that I like are:
 — OpenIntro Statistics
