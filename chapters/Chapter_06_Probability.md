@@ -133,6 +133,13 @@ For the most part, we will be using random variables implicitly in what we do wi
 A coin flip corresponds to a discrete distribution—one that associates positive proba‐ bility with discrete outcomes. Often we’ll want to model distributions across a contin‐ uum of outcomes. (For our purposes, these outcomes will always be real numbers, although that’s not always the case in real life.) For example, the uniform distribution puts equal weight on all the numbers between 0 and 1.
 Because there are infinitely many numbers between 0 and 1, this means that the weight it assigns to individual points must necessarily be zero. For this reason, we represent a continuous distribution with a probability density function (pdf) such that the probability of seeing a value in a certain interval equals the integral of the density function over the interval.
 
+> If your integral calculus is rusty, a simpler way of understanding this is that if a distribution has density function f , then the proba‐ bility of seeing a value between x and x+h is approximately h * f ￼ x ￼ if h is small.
+
+
+The density function for the uniform distribution is just:
+```python
+```
+
 ## The Normal Distribution
 ## The Central Limit Theorem
 ## For Further Exploration
