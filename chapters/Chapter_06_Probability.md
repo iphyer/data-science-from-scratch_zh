@@ -114,7 +114,8 @@ That is, less than 1% of the people who test positive actually have the disease.
 
 > This assumes that people take the test more or less at random. If only people with certain symptoms take the test we would instead have to condition on the event “positive test and symptoms” and the number would likely be a lot higher.
 
-
+While this is a simple calculation for a data scientist, most doctors will guess that P(D|T) is approximately 2.
+A more intuitive way to see this is to imagine a population of 1 million people. You’d expect 100 of them to have the disease, and 99 of those 100 to test positive. On the other hand, you’d expect 999,900 of them not to have the disease, and 9,999 of those to test positive. Which means that you’d expect only 99 out of (99 + 9999) positive testers to actually have the disease.
 ## Random Variables
 ## Continuous Distributions
 ## The Normal Distribution
