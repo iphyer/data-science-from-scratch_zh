@@ -222,5 +222,6 @@ A correlation of zero indicates that there is no linear relationship between the
 x = [-2, -1, 0, 1, 2] 
 y = [2, 1,0,1,2]
 ```
+then x and y have zero correlation. But they certainly have a relationship—each ele‐ ment of y equals the absolute value of the corresponding element of x. What they
 ## Correlation and Causation
 ## For Further Exploration
