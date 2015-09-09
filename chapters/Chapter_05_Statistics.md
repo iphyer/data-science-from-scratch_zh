@@ -89,7 +89,8 @@ def quantile(x, p):
     return sorted(x)[p_index]
 quantile(num_friends, 0.10) # 1 
 quantile(num_friends, 0.25) # 3 
-quantile(num_friends, 0.75) # 9 quantile(num_friends, 0.90) # 13
+quantile(num_friends, 0.75) # 9 
+quantile(num_friends, 0.90) # 13
 ```
 
 ### Dispersion
