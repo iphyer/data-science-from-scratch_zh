@@ -248,10 +248,8 @@ def binomial(n, p):
     return sum(bernoulli_trial(p) for _ in range(n))
 ```
 
-The mean of a Bernoulli(p) variable is p, and its standard deviation is
+The mean of a Bernoulli(p) variable is p, and its standard deviation is !pic
 The central limit theorem says that as n gets large, a Binomial(n,p) variable is approxi‐ mately a normal random variable with mean μ = np and standard deviation
-p 1 − p . 
-￼￼￼σ =
-np 1 − p . If we plot both, you can easily see the resemblance:
+ If we plot both, you can easily see the resemblance:
 
 ## For Further Exploration
