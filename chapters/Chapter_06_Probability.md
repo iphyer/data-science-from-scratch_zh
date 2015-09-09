@@ -106,7 +106,7 @@ What does a positive test mean? Let’s use T for the event “your test is posi
 ```
 P(D|T) = P(T|D)P(D)/[P(T|D)P(D) + P(T|-D)P(-D)]
 ```
-
+Here we know that P T D , the probability that someone with the disease tests posi‐ tive, is 0.99. P(D) , the probability that any given person has the disease, is 1/10,000 = 0.0001. P T ¬D , the probability that someone without the disease tests positive, is 0.01. And P ¬D , the probability that any given person doesn’t have the disease, is 0.9999. If you substitute these numbers into Bayes’s Theorem you find
 ## Random Variables
 ## Continuous Distributions
 ## The Normal Distribution
