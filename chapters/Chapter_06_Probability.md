@@ -60,6 +60,10 @@ As before, the event B and L (“both children are girls and at least one of the
 P(B|L)=P(B,L)/P(L) = P(B)/P(L)=1/3
 ```
 
+How can this be the case? Well, if all you know is that at least one of the children is a girl, then it is twice as likely that the family has one boy and one girl than that it has both girls.
+We can check this by “generating” a lot of families:
+
+
 ## Bayes's Theorem
 ## Random Variables
 ## Continuous Distributions
