@@ -219,6 +219,8 @@ The only real way to avoid this is by knowing your data and by doing what you ca
 ## Some Other Correlational Caveats
 A correlation of zero indicates that there is no linear relationship between the two variables. However, there may be other sorts of relationships. For example, if:
 ```python
+x = [-2, -1, 0, 1, 2] 
+y=[2, 1,0,1,2]
 ```
 ## Correlation and Causation
 ## For Further Exploration
