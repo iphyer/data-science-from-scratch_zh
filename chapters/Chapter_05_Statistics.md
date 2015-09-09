@@ -67,11 +67,12 @@ def median(v):
 sorted_v = sorted(v)
 midpoint = n // 2
 if n % 2 == 1:
-# if odd, return the middle value return sorted_v[midpoint]
+    # if odd, return the middle value return sorted_v[midpoint]
 else:
-# if even, return the average of the middle values lo = midpoint - 1
-hi = midpoint
-return (sorted_v[lo] + sorted_v[hi]) / 2
+    # if even, return the average of the middle values lo = midpoint - 1
+    hi = midpoint
+    return (sorted_v[lo] + sorted_v[hi]) / 2
+median(num_friends) # 6.0
 ```
 ### Dispersion
 
