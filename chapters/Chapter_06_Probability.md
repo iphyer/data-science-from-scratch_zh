@@ -205,7 +205,23 @@ plt.show()
 ```
 Sometimes we’ll need to invert normal_cdf to find the value corresponding to a specified probability. There’s no simple way to compute its inverse, but normal_cdf is continuous and strictly increasing, so we can use a [binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm):
 ```python
-
+def inverse_normal_cdf(p, mu=0, sigma=1, tolerance=0.00001): """find approximate inverse using binary search"""
+# if not standard, compute standard and rescale
+if mu != 0 or sigma != 1:
+return mu + sigma * inverse_normal_cdf(p, tolerance=tolerance)
+low_z, low_p = -10.0, 0
+hi_z, hi_p = 10.0, 1
+while hi_z - low_z > tolerance:
+mid_z = (low_z + hi_z) / 2 mid_p = normal_cdf(mid_z) if mid_p < p:
+# normal_cdf(-10) is (very close to) 0
+# normal_cdf(10)  is (very close to) 1
+# consider the midpoint
+# and the cdf's value there
+                # midpoint is still too low, search above it
+low_z, low_p = mid_z, mid_p elif mid_p > p:
+                # midpoint is still too high, search below it
+hi_z, hi_p = mid_z, mid_p else:
+break return mid_z
 ```
 
 ## The Central Limit Theorem
