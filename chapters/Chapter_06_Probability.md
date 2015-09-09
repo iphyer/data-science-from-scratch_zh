@@ -236,5 +236,11 @@ is approximately normally distributed with mean μ and standard deviation !pic. 
 
 !pic
 
+is approximately normally distributed with mean 0 and standard deviation 1.
+An easy way to illustrate this is by looking at binomial random variables, which have
+two parameters n and p. A Binomial(n,p) random variable is simply the sum of n independent Bernoulli(p) random variables, each of which equals 1 with probability p and 0 with probability 1 − p:
+
+```python
+```
 
 ## For Further Exploration
