@@ -147,8 +147,10 @@ We will often be more interested in the cumulative distribution function (cdf), 
 ```python
 
 def uniform_cdf(x):
-"returns the probability that a uniform random variable is <= x"
-￼if x < 0: return 0 elif x < 1: return x else: return 1
+    "returns the probability that a uniform random variable is <= x"
+    ￼if x < 0: return 0
+    elif x < 1: return x 
+    else: return 1
 # uniform random is never less than 0
 # e.g. P(X <= 0.4) = 0.4
 # uniform random is always less than 1
