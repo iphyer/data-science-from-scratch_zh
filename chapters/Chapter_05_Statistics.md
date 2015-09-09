@@ -13,7 +13,9 @@ Using techniques from Chapter 1, you are easily able to produce this data. But n
 One obvious description of any data set is simply the data itself:
 
 ```python
-
+num_friends = [100, 49, 41, 40, 25,
+               # ... and lots more
+               ]
 ```
 
 ### Central Tendencies
