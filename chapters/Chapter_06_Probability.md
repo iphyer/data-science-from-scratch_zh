@@ -242,9 +242,10 @@ two parameters n and p. A Binomial(n,p) random variable is simply the sum of n i
 
 ```python
 def bernoulli_trial(p):
-return 1 if random.random() < p else 0
+    return 1 if random.random() < p else 0
+
 def binomial(n, p):
-return sum(bernoulli_trial(p) for _ in range(n))
+    return sum(bernoulli_trial(p) for _ in range(n))
 ```
 
 ## For Further Exploration
