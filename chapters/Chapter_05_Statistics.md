@@ -182,6 +182,13 @@ correlation(num_friends, daily_minutes) # 0.25
 The correlation is unitless and always lies between -1 (perfect anti-correlation) and 1 (perfect correlation). A number like 0.25 represents a relatively weak positive corre‐ lation.
 However, one thing we neglected to do was examine our data. Check out Figure 5-2.
 
+Figure 5-2
+The person with 100 friends (who spends only one minute per day on the site) is a huge outlier, and correlation can be very sensitive to outliers. What happens if we ignore him?
+
+```python
+
+```
+
 ## Simpson's Paradox
 ## Some Other Correlational Caveats
 ## Correlation and Causation
