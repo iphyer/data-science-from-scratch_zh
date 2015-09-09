@@ -41,6 +41,10 @@ When E and F are independent, you can check that this gives:
 ```
 P(E|F) = P(E)
 ```
+which is the mathematical way of expressing that knowing F occurred gives us no
+additional information about whether E occurred.
+One common tricky example involves a family with two (unknown) children. If we assume that:
+
 
 ## Bayes's Theorem
 ## Random Variables
