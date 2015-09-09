@@ -141,7 +141,12 @@ The density function for the uniform distribution is just:
 def uniform_pdf(x):
     return 1 if x >= 0 and x < 1 else 0
 ```
+The probability that a random variable following that distribution is between 0.2 and 0.3 is 1/10, as you’d expect. Python’s random.random() is a [pseudo]random variable with a uniform density.
+We will often be more interested in the cumulative distribution function (cdf), which gives the probability that a random variable is less than or equal to a certain value. It’s not hard to create the cumulative distribution function for the uniform distribution (Figure 6-1):
 
+```python
+
+```
 ## The Normal Distribution
 ## The Central Limit Theorem
 ## For Further Exploration
