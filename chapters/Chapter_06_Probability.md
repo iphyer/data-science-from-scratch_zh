@@ -191,5 +191,8 @@ Z= X−μ/σ
 is a standard normal variable.
 
 The cumulative distribution function for the normal distribution cannot be written in an “elementary” manner, but we can write it using [Python’s math.erf]():
+```python
+
+```
 ## The Central Limit Theorem
 ## For Further Exploration
