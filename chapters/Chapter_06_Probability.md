@@ -93,7 +93,7 @@ P(E|F)=P(E,F)|P(F)=P(E|F)P(E)/P(F)
 The event F can be split into the two mutually exclusive events “F and E” and “F and
 not E.” If we write ¬E for “not E” (i.e., “E doesn’t happen”), then:
 ```
-
+P(F)=P(F,E)+P(F,-E)
 ```
 ## Random Variables
 ## Continuous Distributions
