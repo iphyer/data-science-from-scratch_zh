@@ -95,6 +95,10 @@ not E.” If we write ¬E for “not E” (i.e., “E doesn’t happen”), then
 ```
 P(F)=P(F,E)+P(F,-E)
 ```
+so that:
+```
+
+```
 ## Random Variables
 ## Continuous Distributions
 ## The Normal Distribution
