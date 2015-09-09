@@ -160,6 +160,8 @@ The normal distribution is the king of distributions. It is the classic bell cur
 
 It has the distribution function:
 
+pic
+
 which we can implement as:
 ```python
 def normal_pdf(x, mu=0, sigma=1):
