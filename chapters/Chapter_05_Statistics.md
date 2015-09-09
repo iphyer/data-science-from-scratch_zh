@@ -148,6 +148,7 @@ def interquartile_range(x):
 return quantile(x, 0.75) - quantile(x, 0.25)
 interquartile_range(num_friends) # 6
 ```
+which is quite plainly unaffected by a small number of outliers.
 
 ## Correlation
 ## Simpson's Paradox
