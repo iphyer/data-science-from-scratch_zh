@@ -193,6 +193,8 @@ is a standard normal variable.
 The cumulative distribution function for the normal distribution cannot be written in an “elementary” manner, but we can write it using [Python’s math.erf]():
 ```python
 
+def normal_cdf(x, mu=0,sigma=1):
+return (1 + math.erf((x - mu) / math.sqrt(2) / sigma)) / 2
 ```
 ## The Central Limit Theorem
 ## For Further Exploration
