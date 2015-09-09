@@ -97,7 +97,7 @@ P(F)=P(F,E)+P(F,-E)
 ```
 so that:
 ```
-
+P(E|F) = P(F|E)P(E)/[P(F|E)P(E) + P(F|-E)P(-E)]
 ```
 ## Random Variables
 ## Continuous Distributions
