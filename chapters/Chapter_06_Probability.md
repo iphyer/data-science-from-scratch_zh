@@ -171,6 +171,7 @@ def normal_pdf(x, mu=0, sigma=1):
 ```
 In Figure 6-2, we plot some of these pdfs to see what they look like:
 ```python
+
 ```
 
 ## The Central Limit Theorem
