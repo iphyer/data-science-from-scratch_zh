@@ -104,7 +104,15 @@ def mode(x):
 
 mode(num_friends) # 1 and 6
 ```
+But most frequently we’ll just use the mean.
 ### Dispersion
+Dispersion refers to measures of how spread out our data is. Typically they’re statistics for which values near zero signify not spread out at all and for which large values (whatever that means) signify very spread out. For instance, a very simple measure is the range, which is just the difference between the largest and smallest elements:
+```python
+# "range" already means something in Python, so we'll use a different name
+def data_range(x):
+return max(x) - min(x)
+data_range(num_friends) # 99
+```
 
 ## Correlation
 ## Simpson's Paradox
