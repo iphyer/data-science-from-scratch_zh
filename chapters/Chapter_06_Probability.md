@@ -249,8 +249,8 @@ def binomial(n, p):
 ```
 
 The mean of a Bernoulli(p) variable is p, and its standard deviation is
-central limit theorem says that as n gets large, a Binomial(n,p) variable is approxi‐ mately a normal random variable with mean μ = np and standard deviation
-p 1 − p . The
+The central limit theorem says that as n gets large, a Binomial(n,p) variable is approxi‐ mately a normal random variable with mean μ = np and standard deviation
+p 1 − p . 
 ￼￼￼σ =
 np 1 − p . If we plot both, you can easily see the resemblance:
 
