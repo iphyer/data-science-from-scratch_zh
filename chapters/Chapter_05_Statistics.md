@@ -30,6 +30,15 @@ plt.ylabel("# of people")
 plt.show()
 ```
 
+Unfortunately, this chart is still too difficult to slip into conversations. So you start generating some statistics. Probably the simplest statistic is simply the number of data points:
+```python
+num_points = len(num_friends) # 204
+```
+You’re probably also interested in the largest and smallest values:
+```python
+largest_value = max(num_friends) # 100 
+smallest_value = min(num_friends) # 1
+```
 ### Central Tendencies
 ### Dispersion
 
