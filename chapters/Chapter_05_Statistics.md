@@ -93,6 +93,14 @@ quantile(num_friends, 0.75) # 9
 quantile(num_friends, 0.90) # 13
 ```
 
+Less commonly you might want to look at the mode, or most-common value[s]:
+```python
+def mode(x):
+"""returns a list, might be more than one mode""" counts = Counter(x)
+max_count = max(counts.values())
+return [x_i for x_i, count in counts.iteritems()
+if count == max_count] mode(num_friends) # 1 and 6
+```
 ### Dispersion
 
 ## Correlation
