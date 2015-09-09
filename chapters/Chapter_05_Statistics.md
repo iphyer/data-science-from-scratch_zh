@@ -231,4 +231,11 @@ y = [99.98, 99.99, 100, 100.01, 100.02]
 are perfectly correlated, but (depending on what you’re measuring) it’s quite possible that this relationship isn’t all that interesting.
 
 ## Correlation and Causation
+You have probably heard at some point that “correlation is not causation,” most likely by someone looking at data that posed a challenge to parts of his worldview that he was reluctant to question. Nonetheless, this is an important point—if x and y are strongly correlated, that might mean that x causes y, that y causes x, that each causes the other, that some third factor causes both, or it might mean nothing.
+Consider the relationship between num_friends and daily_minutes. It’s possible that having more friends on the site causes DataSciencester users to spend more time on the site. This might be the case if each friend posts a certain amount of content each day, which means that the more friends you have, the more time it takes to stay cur‐ rent with their updates.
+However, it’s also possible that the more time you spend arguing in the DataSciences‐ ter forums, the more you encounter and befriend like-minded people. That is, spend‐ ing more time on the site causes users to have more friends.
+A third possibility is that the users who are most passionate about data science spend more time on the site (because they find it more interesting) and more actively collect data science friends (because they don’t want to associate with anyone else).
+One way to feel more confident about causality is by conducting randomized trials. If you can randomly split your users into two groups with similar demographics and give one of the groups a slightly different experience, then you can often feel pretty good that the different experiences are causing the different outcomes.
+For instance, if you don’t mind being angrily accused of experimenting on your users, you could randomly choose a subset of your users and show them content from only a fraction of their friends. If this subset subsequently spent less time on the site, this would give you some confidence that having more friends causes more time on the site.
+
 ## For Further Exploration
