@@ -183,8 +183,11 @@ normal random variable, then it turns out that:
 ```
 X = σZ + μ
 ```
+
 is also normal but with mean μ and standard deviation σ. Conversely, if X is a normal random variable with mean μ and standard deviation σ,
+```
 Z= X−μ/σ
+```
 is a standard normal variable.
 
 ## The Central Limit Theorem
