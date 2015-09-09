@@ -157,8 +157,9 @@ We’ll first look at covariance, the paired analogue of variance. Whereas varia
 
 ```python
 
-def covariance(x, y): n = len(x)
-return dot(de_mean(x), de_mean(y)) / (n - 1) covariance(num_friends, daily_minutes) # 22.43
+def covariance(x, y): 
+    n = len(x)
+    return dot(de_mean(x), de_mean(y)) / (n - 1) covariance(num_friends, daily_minutes) # 22.43
 ```
 ## Simpson's Paradox
 ## Some Other Correlational Caveats
