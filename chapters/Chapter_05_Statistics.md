@@ -140,6 +140,15 @@ def standard_deviation(x):
     
 standard_deviation(num_friends) # 9.03
 ```
+Both the range and the standard deviation have the same outlier problem that we saw earlier for the mean. Using the same example, if our friendliest user had instead 200 friends, the standard deviation would be 14.89, more than 60% higher!
+A more robust alternative computes the difference between the 75th percentile value and the 25th percentile value:
+```python
+
+def interquartile_range(x):
+return quantile(x, 0.75) - quantile(x, 0.25)
+interquartile_range(num_friends) # 6
+```
+
 ## Correlation
 ## Simpson's Paradox
 ## Some Other Correlational Caveats
