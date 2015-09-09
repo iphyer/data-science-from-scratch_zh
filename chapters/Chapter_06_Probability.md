@@ -49,6 +49,8 @@ One common tricky example involves a family with two (unknown) children. If we a
 
 then the event “no girls” has probability 1/4, the event “one girl, one boy” has proba‐ bility 1/2, and the event “two girls” has probability 1/4.
 Now we can ask what is the probability of the event “both children are girls” (B) con‐ ditional on the event “the older child is a girl” (G)? Using the definition of conditional probability:
+```
+P(B|G) = P(B,G)/P(G) = P(B)/P(G) = 1/2
 
 ## Bayes's Theorem
 ## Random Variables
