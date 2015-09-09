@@ -161,6 +161,8 @@ def covariance(x, y):
     n = len(x)
     return dot(de_mean(x), de_mean(y)) / (n - 1) covariance(num_friends, daily_minutes) # 22.43
 ```
+Recall that dot sums up the products of corresponding pairs of elements. When cor‐ responding elements of x and y are either both above their means or both below their means, a positive number enters the sum. When one is above its mean and the other
+
 ## Simpson's Paradox
 ## Some Other Correlational Caveats
 ## Correlation and Causation
