@@ -234,4 +234,7 @@ In particular, if x1, ..., xn are random variables with mean μ and standard dev
 
 is approximately normally distributed with mean μ and standard deviation !pic. Equivalently (but often more usefully),
 
+!pic
+
+
 ## For Further Exploration
