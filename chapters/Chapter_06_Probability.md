@@ -34,6 +34,9 @@ P(E|F) = P(E,F)/P(F)
 
 You should think of this as the probability that *E* happens, given that we know that *F* happens.
 We often rewrite this as:
+```
+P(E,F) = P(E)
+```
 
 ## Bayes's Theorem
 ## Random Variables
