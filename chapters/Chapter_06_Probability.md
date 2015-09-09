@@ -232,7 +232,6 @@ In particular, if x1, ..., xn are random variables with mean μ and standard dev
 
 !pic
 
-is approximately normally distributed with mean μ and standard deviation !pic.
-Equivalently (but often more usefully),
+is approximately normally distributed with mean μ and standard deviation !pic. Equivalently (but often more usefully),
 
 ## For Further Exploration
