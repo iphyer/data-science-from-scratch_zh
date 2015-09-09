@@ -137,6 +137,7 @@ Now, whatever units our data is in (e.g., “friends”), all of our measures of
 ```python
 def standard_deviation(x):
     return math.sqrt(variance(x))
+    
 standard_deviation(num_friends) # 9.03
 ```
 ## Correlation
