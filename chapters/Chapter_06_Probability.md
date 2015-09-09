@@ -1,1 +1,1 @@
-WIP
+# Chapter 6 概率
