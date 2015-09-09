@@ -39,6 +39,10 @@ You’re probably also interested in the largest and smallest values:
 largest_value = max(num_friends) # 100 
 smallest_value = min(num_friends) # 1
 ```
+which are just special cases of wanting to know the values in specific positions:
+```python
+
+```
 ### Central Tendencies
 ### Dispersion
 
