@@ -21,7 +21,13 @@ For a small enough data set this might even be the best description. But for a l
 As a first approach you put the friend counts into a histogram using Counter and plt.bar() (Figure 5-1):
 
 ```python
-
+friend_counts = Counter(num_friends) xs = range(101)
+ys = [friend_counts[x] for x in xs] plt.bar(xs, ys)
+plt.axis([0, 101, 0, 25])
+plt.title("Histogram of Friend Counts")
+plt.xlabel("# of friends")
+plt.ylabel("# of people")
+plt.show()
 ```
 
 ### Central Tendencies
