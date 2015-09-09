@@ -123,7 +123,7 @@ The associated distribution gives the probabilities that the variable realizes e
 
 We will sometimes talk about the expected value of a random variable, which is the average of its values weighted by their probabilities. The coin flip variable has an expected value of 1/2 (= 0 * 1/2 + 1 * 1/2), and the range(10) variable has an expected value of 4.5.
 
-Random variables can be conditioned on events just as other events can. Going back to the two-child example from “Conditional Probability” on page 70, if X is the ran‐ dom variable representing the number of girls, X equals 0 with probability 1/4, 1 with probability 1/2, and 2 with probability 1/4.
+Random variables can be conditioned on events just as other events can. Going back to the two-child example from [“Conditional Probability”]() on page 70, if X is the ran‐ dom variable representing the number of girls, X equals 0 with probability 1/4, 1 with probability 1/2, and 2 with probability 1/4.
 
 We can define a new random variable Y that gives the number of girls conditional on at least one of the children being a girl. Then Y equals 1 with probability 2/3 and 2 with probability 1/3. And a variable Z that’s the number of girls conditional on the older child being a girl equals 1 with probability 1/2 and 2 with probability 1/2.
 
