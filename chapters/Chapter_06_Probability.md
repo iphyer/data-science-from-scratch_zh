@@ -28,6 +28,8 @@ P(E,F) = P(E)P(F)
 ```
 If they are not necessarily independent (and if the probability of F is not zero), then we define the probability of E “conditional on F” as:
 
+```
+P(E|F) = P(E,F)/P(F)
 ## Bayes's Theorem
 ## Random Variables
 ## Continuous Distributions
