@@ -105,6 +105,8 @@ What does a positive test mean? Let’s use T for the event “your test is posi
 
 ```
 P(D|T) = P(T|D)P(D)/[P(T|D)P(D) + P(T|-D)P(-D)]
+```
+
 ## Random Variables
 ## Continuous Distributions
 ## The Normal Distribution
