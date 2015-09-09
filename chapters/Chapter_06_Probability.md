@@ -22,6 +22,8 @@ In the example above, the probability of “first flip Heads” is 1/2, and the 
 
 
 ## Conditional Probability
+When two events E and F are independent, then by definition we have:
+
 ## Bayes's Theorem
 ## Random Variables
 ## Continuous Distributions
