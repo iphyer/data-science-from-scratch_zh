@@ -51,6 +51,8 @@ then the event “no girls” has probability 1/4, the event “one girl, one bo
 Now we can ask what is the probability of the event “both children are girls” (B) con‐ ditional on the event “the older child is a girl” (G)? Using the definition of conditional probability:
 ```
 P(B|G) = P(B,G)/P(G) = P(B)/P(G) = 1/2
+```
+
 
 ## Bayes's Theorem
 ## Random Variables
