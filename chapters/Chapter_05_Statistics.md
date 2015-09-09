@@ -84,9 +84,12 @@ A generalization of the median is the quantile, which represents the value less 
 
 ```python
 def quantile(x, p):
-"""returns the pth-percentile value in x""" p_index = int(p * len(x))
-return sorted(x)[p_index]
-quantile(num_friends, 0.10) # 1 quantile(num_friends, 0.25) # 3 quantile(num_friends, 0.75) # 9 quantile(num_friends, 0.90) # 13
+    """returns the pth-percentile value in x""" 
+    p_index = int(p * len(x))
+    return sorted(x)[p_index]
+quantile(num_friends, 0.10) # 1 
+quantile(num_friends, 0.25) # 3 
+quantile(num_friends, 0.75) # 9 quantile(num_friends, 0.90) # 13
 ```
 
 ### Dispersion
