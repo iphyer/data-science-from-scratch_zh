@@ -78,7 +78,8 @@ both_girls += 1
 if older == "girl" or younger == "girl":
             either_girl += 1
 
-print "P(both | older):", both_girls / older_girl # 0.514 ~ 1/2 print "P(both | either): ", both_girls / either_girl # 0.342 ~ 1/3
+print "P(both | older):", both_girls / older_girl # 0.514 ~ 1/2 
+print "P(both | either): ", both_girls / either_girl # 0.342 ~ 1/3
 ```
 ## Bayes's Theorem
 ## Random Variables
