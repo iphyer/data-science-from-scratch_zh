@@ -171,9 +171,11 @@ For this reason, it’s more common to look at the correlation, which divides ou
 
 ```python
 def correlation(x, y):
-stdev_x = standard_deviation(x) stdev_y = standard_deviation(y) if stdev_x > 0 and stdev_y > 0:
-return covariance(x, y) / stdev_x / stdev_y else:
-return 0 # if no variation, correlation is zero correlation(num_friends, daily_minutes) # 0.25
+    stdev_x = standard_deviation(x) 
+    stdev_y = standard_deviation(y) 
+    if stdev_x > 0 and stdev_y > 0:
+        return covariance(x, y) / stdev_x / stdev_y         else:
+        return 0 # if no variation, correlation is zero correlation(num_friends, daily_minutes) # 0.25
 ```
 
 ## Simpson's Paradox
