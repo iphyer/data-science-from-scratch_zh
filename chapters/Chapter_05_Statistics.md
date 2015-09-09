@@ -14,7 +14,7 @@ Through a combination of word-of-mouth and luck, DataSciencester has grown to do
 Using techniques from Chapter 1, you are easily able to produce this data. But now you are faced with the problem of how to describe it.
 One obvious description of any data set is simply the data itself:
 
-使用第一章提到的技能，你可以很简单的生成数据
+使用第一章提到的技能，你可以很简单的生成数据，但你会遇到如何描述它的问题。一个简单直接的描述
 
 ```python
 num_friends = [100, 49, 41, 40, 25,
