@@ -157,5 +157,10 @@ Figure
 
 ## The Normal Distribution
 The normal distribution is the king of distributions. It is the classic bell curve–shaped distribution and is completely determined by two parameters: its mean μ (mu) and its standard deviation σ (sigma). The mean indicates where the bell is centered, and the standard deviation how “wide” it is.
+
+It has the distribution function:
+
+which we can implement as:
+
 ## The Central Limit Theorem
 ## For Further Exploration
