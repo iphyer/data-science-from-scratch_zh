@@ -56,6 +56,12 @@ def mean(x):
 return sum(x) / len(x)
 mean(num_friends) # 7.333333
 ```
+If you have two data points, the mean is simply the point halfway between them. As you add more points, the mean shifts around, but it always depends on the value of every point.
+We’ll also sometimes be interested in the median, which is the middle-most value (if the number of data points is odd) or the average of the two middle-most values (if the number of data points is even).
+For instance, if we have five data points in a sorted vector x, the median is x[5 // 2] or x[2]. If we have six data points, we want the average of x[2] (the third point) and x[3] (the fourth point).
+Notice that—unlike the mean—the median doesn’t depend on every value in your data. For example, if you make the largest point larger (or the smallest point smaller), the middle points remain unchanged, which means so does the median.
+The median function is slightly more complicated than you might expect, mostly because of the “even” case:
+
 ### Dispersion
 
 ## Correlation
