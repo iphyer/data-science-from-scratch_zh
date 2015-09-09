@@ -118,13 +118,14 @@ Like the median, the range doesn’t really depend on the whole data set. A data
 A more complex measure of dispersion is the variance, which is computed as:
 ```python
 def de_mean(x):
-"""translate x by subtracting its mean (so the result has mean 0)""" x_bar = mean(x)
-return [x_i - x_bar for x_i in x]
+    """translate x by subtracting its mean (so the result has mean 0)""" 
+    x_bar = mean(x)
+    return [x_i - x_bar for x_i in x]
 def variance(x):
-"""assumes x has at least two elements"""
-n = len(x)
-deviations = de_mean(x)
-return sum_of_squares(deviations) / (n - 1)
+    """assumes x has at least two elements"""
+    n = len(x)
+    deviations = de_mean(x)
+    return sum_of_squares(deviations) / (n - 1)
 variance(num_friends) # 81.54
 ```
 ## Correlation
