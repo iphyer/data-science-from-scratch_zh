@@ -15,7 +15,9 @@ ity theory means. (This is best done over beers.) We won’t be doing that.
 Roughly speaking, we say that two events E and F are dependent if knowing some‐ thing about whether E happens gives us information about whether F happens (and vice versa). Otherwise they are independent.
 For instance, if we flip a fair coin twice, knowing whether the first flip is Heads gives us no information about whether the second flip is Heads. These events are inde‐ pendent. On the other hand, knowing whether the first flip is Heads certainly gives us information about whether both flips are Tails. (If the first flip is Heads, then defi‐ nitely it’s not the case that both flips are Tails.) These two events are dependent.
 Mathematically, we say that two events E and F are independent if the probability that they both happen is the product of the probabilities that each one happens:
-PE,F =PEPF
+```
+P(E,F) =P(E)P(F)
+
 In the example above, the probability of “first flip Heads” is 1/2, and the probability of “both flips Tails” is 1/4, but the probability of “first flip Heads and both flips Tails” is 0.
 
 
