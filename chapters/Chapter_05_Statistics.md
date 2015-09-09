@@ -113,7 +113,12 @@ def data_range(x):
     return max(x) - min(x)
 data_range(num_friends) # 99
 ```
+The range is zero precisely when the max and min are equal, which can only happen if the elements of x are all the same, which means the data is as undispersed as possible. Conversely, if the range is large, then the max is much larger than the min and the data is more spread out.
+Like the median, the range doesn’t really depend on the whole data set. A data set whose points are all either 0 or 100 has the same range as a data set whose values are 0, 100, and lots of 50s. But it seems like the first data set “should” be more spread out.
+A more complex measure of dispersion is the variance, which is computed as:
+```python
 
+```
 ## Correlation
 ## Simpson's Paradox
 ## Some Other Correlational Caveats
