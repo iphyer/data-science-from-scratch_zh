@@ -39,6 +39,9 @@ plt.show()
 ```
 
 Unfortunately, this chart is still too difficult to slip into conversations. So you start generating some statistics. Probably the simplest statistic is simply the number of data points:
+
+不幸的是
+
 ```python
 num_points = len(num_friends) # 204
 ```
