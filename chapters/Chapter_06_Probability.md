@@ -40,6 +40,7 @@ P(E,F) = P(E)
 When E and F are independent, you can check that this gives:
 ```
 P(E|F) = P(E)
+```
 
 ## Bayes's Theorem
 ## Random Variables
