@@ -8,7 +8,9 @@ Statistics refers to the mathematics and techniques with which we understand dat
 
 
 ## 描述单个数据集合
+
 Through a combination of word-of-mouth and luck, DataSciencester has grown to dozens of members, and the VP of Fundraising asks you for some sort of description of how many friends your members have that he can include in his elevator pitches.
+
 Using techniques from Chapter 1, you are easily able to produce this data. But now you are faced with the problem of how to describe it.
 One obvious description of any data set is simply the data itself:
 
