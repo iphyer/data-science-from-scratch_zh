@@ -176,8 +176,16 @@ plt.plot(xs,[normal_pdf(x,sigma=1) for x in xs],'-',label='mu=0,sigma=1') plt.pl
 plt.title("Various Normal pdfs")
 plt.show()
 ```
+Figure
 
-
+When μ = 0 and σ = 1, it’s called the standard normal distribution. If Z is a standard
+normal random variable, then it turns out that: 
+```
+X = σZ + μ
+```
+is also normal but with mean μ and standard deviation σ. Conversely, if X is a normal random variable with mean μ and standard deviation σ,
+Z= X−μ/σ
+is a standard normal variable.
 
 ## The Central Limit Theorem
 ## For Further Exploration
