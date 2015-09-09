@@ -32,8 +32,7 @@ If they are not necessarily independent (and if the probability of F is not zero
 P(E|F) = P(E,F)/P(F)
 ```
 
-You should think of this as the probability that E happens, given that we know that F
-happens.
+You should think of this as the probability that *E* happens, given that we know that *F* happens.
 We often rewrite this as:
 
 ## Bayes's Theorem
