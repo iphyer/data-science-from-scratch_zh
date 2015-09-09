@@ -52,7 +52,10 @@ Now we can ask what is the probability of the event “both children are girls�
 ```
 P(B|G) = P(B,G)/P(G) = P(B)/P(G) = 1/2
 ```
-
+since the event B and G (“both children are girls and the older child is a girl”) is just the event B. (Once you know that both children are girls, it’s necessarily true that the older child is a girl.)
+Most likely this result accords with your intuition.
+We could also ask about the probability of the event “both children are girls” condi‐ tional on the event “at least one of the children is a girl” (L). Surprisingly, the answer is different from before!
+As before, the event B and L (“both children are girls and at least one of the children is a girl”) is just the event B. This means we have:
 
 ## Bayes's Theorem
 ## Random Variables
