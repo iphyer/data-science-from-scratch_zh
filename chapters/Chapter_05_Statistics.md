@@ -24,7 +24,7 @@ num_friends = [100, 49, 41, 40, 25,
 For a small enough data set this might even be the best description. But for a larger data set, this is unwieldy and probably opaque. (Imagine staring at a list of 1 million numbers.) For that reason we use statistics to distill and communicate relevant fea‐ tures of our data.
 As a first approach you put the friend counts into a histogram using Counter and plt.bar() (Figure 5-1):
 
-
+对于小块数据集用以上的方式是很好的描述方式。但对于大一些的数据，这恐怕有些不透明？！
 
 ![](../assets/images/C05_001.png)
 
