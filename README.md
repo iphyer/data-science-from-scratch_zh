@@ -21,30 +21,30 @@
 
 ## 开始阅读
 * [第1章：简介](chapters/Chapter_01_Introduction.md)
-* [第2章：Python快速入门教程(WIP)](chapters/Chapter_02_A_Crash_Course_in_Python.md)
-* [第3章：数据可视化(WIP)](chapters/Chapter_03_Visualizing_Data.md)
-* [第4章：线性代数(WIP)](chapters/Chapter_04_Linear_Algebra.md)
-* [第5章：统计(WIP)](chapters/Chapter_05_Statistics.md)
-* [第6章：概率(WIP)](chapters/Chapter_06_Probability.md)
-* [第7章：假设和推理(WIP)](chapters/Chapter_07_Hypothesis_and_Inference.md)
-* [第8章：梯度下降(WIP)](chapters/Chapter_08_Gradient_Descent.md)
-* [第9章：获取数据(WIP)](chapters/Chapter_09_Getting_Data.md)
-* [第10章：处理数据(WIP)](chapters/Chapter_10_Working_with_Data.md)
-* [第11章：机器学习(WIP)](chapters/Chapter_11_Machine_Learning.md)
-* [第12章：k近邻算法(WIP)](chapters/Chapter_12_k_Nearest_Neighbors.md)
-* [第13章：朴素贝叶斯(WIP)](chapters/Chapter_13_Naive_Bayes.md)
-* [第14章：简单线性回归(WIP)](chapters/Chapter_14_Simple_Linear_Regression.md)
-* [第15章：多元回归(WIP)](chapters/Chapter_15_Multiple_Regression.md)
-* [第16章：逻辑回归(WIP)](chapters/Chapter_16_Logistic_Regression.md)
-* [第17章：决策树(WIP)](chapters/Chapter_17_Decision_Trees.md)
-* [第18章：神经网络(WIP)](chapters/Chapter_18_Neural_Networks.md)
-* [第19章：集群(WIP)](chapters/Chapter_19_Clustering.md)
-* [第20章：自然语言处理(WIP)](chapters/Chapter_20_Natural_Language_Processing.md)
-* [第21章：网络分析(WIP)](chapters/Chapter_21_Network_Analysis.md)
-* [第22章：推荐系统(WIP)](chapters/Chapter_22_Recommender_Systems)
-* [第23章：数据库与SQL(WIP)](chapters/Chapter_23_Database_and_SQL.md)
-* [第24章：MapReduce(WIP)](chapters/Chapter_24_MapReduce.md)
-* [第25章：前进吧！继续你的数据科学之路(WIP)](chapters/Chapter_25_Go_Forth_and_Do_Data_Science.md)
+* [第2章：Python快速入门教程](chapters/Chapter_02_A_Crash_Course_in_Python.md)
+* [第3章：数据可视化](chapters/Chapter_03_Visualizing_Data.md)
+* [第4章：线性代数](chapters/Chapter_04_Linear_Algebra.md)
+* [第5章：统计](chapters/Chapter_05_Statistics.md)
+* [第6章：概率](chapters/Chapter_06_Probability.md)
+* [第7章：假设和推理](chapters/Chapter_07_Hypothesis_and_Inference.md)
+* [第8章：梯度下降](chapters/Chapter_08_Gradient_Descent.md)
+* [第9章：获取数据](chapters/Chapter_09_Getting_Data.md)
+* [第10章：处理数据](chapters/Chapter_10_Working_with_Data.md)
+* [第11章：机器学习](chapters/Chapter_11_Machine_Learning.md)
+* [第12章：k近邻算法](chapters/Chapter_12_k_Nearest_Neighbors.md)
+* [第13章：朴素贝叶斯](chapters/Chapter_13_Naive_Bayes.md)
+* [第14章：简单线性回归](chapters/Chapter_14_Simple_Linear_Regression.md)
+* [第15章：多元回归](chapters/Chapter_15_Multiple_Regression.md)
+* [第16章：逻辑回归](chapters/Chapter_16_Logistic_Regression.md)
+* [第17章：决策树](chapters/Chapter_17_Decision_Trees.md)
+* [第18章：神经网络](chapters/Chapter_18_Neural_Networks.md)
+* [第19章：集群](chapters/Chapter_19_Clustering.md)
+* [第20章：自然语言处理](chapters/Chapter_20_Natural_Language_Processing.md)
+* [第21章：网络分析](chapters/Chapter_21_Network_Analysis.md)
+* [第22章：推荐系统](chapters/Chapter_22_Recommender_Systems)
+* [第23章：数据库与SQL](chapters/Chapter_23_Database_and_SQL.md)
+* [第24章：MapReduce](chapters/Chapter_24_MapReduce.md)
+* [第25章：前进吧！继续你的数据科学之路](chapters/Chapter_25_Go_Forth_and_Do_Data_Science.md)
 
 
 ## 翻译人员名单
@@ -57,14 +57,30 @@
 | 章节        | 译者           | 翻译进度  |
 | ------------- |:-------------:| -----:|
 | [第1章：简介](chapters/Chapter_01_Introduction.md)      | [iphyer](https://github.com/iphyer) | 完成 |
-| [第2章：Python快速入门教程(WIP)](chapters/Chapter_02_A_Crash_Course_in_Python.md)      | [iphyer](https://github.com/iphyer)      |  完成 |
-| [第3章：数据可视化(WIP)](chapters/Chapter_03_Visualizing_Data.md) | [hexcola](https://github.com/hexcola)      |   *正在进行*  |
-| [第4章：线性代数(WIP)](chapters/Chapter_04_Linear_Algebra.md) | [hexcola](https://github.com/hexcola)      |   *正在进行*  |
-| [第5章：统计(WIP)](chapters/Chapter_05_Statistics.md) | [hexcola](https://github.com/hexcola)      |   *正在进行*  |
-| [第6章：概率(WIP)](chapters/Chapter_06_Probability.md) | [hexcola](https://github.com/hexcola)      |   *正在进行*  |
-| [第7章：假设和推理(WIP)](chapters/Chapter_07_Hypothesis_and_Inference.md) | [hexcola](https://github.com/hexcola)      |   *正在进行*  |
-| [第8章：梯度下降(WIP)](chapters/Chapter_08_Gradient_Descent.md) | [hexcola](https://github.com/hexcola)      |   *正在进行*  |
-
+| [第2章：Python快速入门教程](chapters/Chapter_02_A_Crash_Course_in_Python.md)      | [iphyer](https://github.com/iphyer)      |  完成 |
+| [第3章：数据可视化](chapters/Chapter_03_Visualizing_Data.md) | [hexcola](https://github.com/hexcola)      |   *正在进行*  |
+| [第4章：线性代数](chapters/Chapter_04_Linear_Algebra.md) | [hexcola](https://github.com/hexcola)      |   *正在进行*  |
+| [第5章：统计](chapters/Chapter_05_Statistics.md) | [hexcola](https://github.com/hexcola)      |   *正在进行*  |
+| [第6章：概率](chapters/Chapter_06_Probability.md) | [hexcola](https://github.com/hexcola)      |   *正在进行*  |
+| [第7章：假设和推理](chapters/Chapter_07_Hypothesis_and_Inference.md) | [hexcola](https://github.com/hexcola)      |   *正在进行*  |
+| [第8章：梯度下降](chapters/Chapter_08_Gradient_Descent.md) | [hexcola](https://github.com/hexcola)      |   *正在进行*  |
+| [第9章：获取数据](chapters/Chapter_09_Getting_Data.md) |       |   待认领  |
+| [第10章：处理数据](chapters/Chapter_10_Working_with_Data.md) |       |   待认领  |
+| [第11章：机器学习](chapters/Chapter_11_Machine_Learning.md) |       |   待认领  |
+| [第12章：k近邻算法](chapters/Chapter_12_k_Nearest_Neighbors.md) |       |   待认领  |
+| [第13章：朴素贝叶斯](chapters/Chapter_13_Naive_Bayes.md) |       |   待认领  |
+| [第14章：简单线性回归](chapters/Chapter_14_Simple_Linear_Regression.md) |       |   待认领  |
+| [第15章：多元回归](chapters/Chapter_15_Multiple_Regression.md) |       |   待认领  |
+| [第16章：逻辑回归](chapters/Chapter_16_Logistic_Regression.md) |       |   待认领  |
+| [第17章：决策树](chapters/Chapter_17_Decision_Trees.md) |       |   待认领  |
+| [第18章：神经网络](chapters/Chapter_18_Neural_Networks.md) |       |   待认领  |
+| [第19章：集群](chapters/Chapter_19_Clustering.md) |       |   待认领  |
+| [第20章：自然语言处理](chapters/Chapter_20_Natural_Language_Processing.md)|       |   待认领  |
+| [第21章：网络分析](chapters/Chapter_21_Network_Analysis.md) |       |   待认领  |
+| [第22章：推荐系统](chapters/Chapter_22_Recommender_Systems) |       |   待认领  |
+| [第23章：数据库与SQL](chapters/Chapter_23_Database_and_SQL.md) |       |   待认领  |
+| [第24章：MapReduce](chapters/Chapter_24_MapReduce.md) |       |   待认领  |
+| [第25章：前进吧！继续你的数据科学之路](chapters/Chapter_25_Go_Forth_and_Do_Data_Science.md) |       |   待认领  |
 
 全书目前的翻译进度：
 
