@@ -54,28 +54,11 @@
 
 ##翻译进度表
 
-<table>
-    <tbody>
-        <tr>
-            <td>章节</td>
-            <td>译者</td>
-            <td>翻译进度</td>
-            <td>key</td>
-        </tr>
-        <tr>
-            <td>value</td>
-            <td>value</td>
-            <td>value</td>
-            <td>value</td>
-        </tr>
-    </tbody>
-</table>
-
 | 章节        | 译者           | 翻译进度  |
 | ------------- |:-------------:| -----:|
 | [第1章：简介](chapters/Chapter_01_Introduction.md)      | [iphyer](https://github.com/iphyer) | 完成 |
 | [第2章：Python快速入门教程(WIP)](chapters/Chapter_02_A_Crash_Course_in_Python.md)      | [iphyer](https://github.com/iphyer)      |  完成 |
-| zebra stripes | are neat      |    $1 |
+| [第3章：数据可视化(WIP)](chapters/Chapter_03_Visualizing_Data.md) | [hexcola](https://github.com/hexcola)      |   *正在进行*  |
 
 
 +---------------+-------------------------------------------+-------------------------------+
