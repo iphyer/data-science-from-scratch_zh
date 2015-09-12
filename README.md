@@ -59,7 +59,11 @@
 | [第1章：简介](chapters/Chapter_01_Introduction.md)      | [iphyer](https://github.com/iphyer) | 完成 |
 | [第2章：Python快速入门教程(WIP)](chapters/Chapter_02_A_Crash_Course_in_Python.md)      | [iphyer](https://github.com/iphyer)      |  完成 |
 | [第3章：数据可视化(WIP)](chapters/Chapter_03_Visualizing_Data.md) | [hexcola](https://github.com/hexcola)      |   *正在进行*  |
-
+| [第4章：线性代数(WIP)](chapters/Chapter_04_Linear_Algebra.md) | [hexcola](https://github.com/hexcola)      |   *正在进行*  |
+| [第5章：统计(WIP)](chapters/Chapter_05_Statistics.md) | [hexcola](https://github.com/hexcola)      |   *正在进行*  |
+| [第6章：概率(WIP)](chapters/Chapter_06_Probability.md) | [hexcola](https://github.com/hexcola)      |   *正在进行*  |
+| [第7章：假设和推理(WIP)](chapters/Chapter_07_Hypothesis_and_Inference.md) | [hexcola](https://github.com/hexcola)      |   *正在进行*  |
+| [第8章：梯度下降(WIP)](chapters/Chapter_08_Gradient_Descent.md) | [hexcola](https://github.com/hexcola)      |   *正在进行*  |
 
 
 全书目前的翻译进度：
@@ -68,6 +72,6 @@
 | 状态  | 已完成    | 正在进行  | 等待认领  |
 | ------|------- |:-------------:| -----:|
 | 数量  | 2 章     | 4 章     | 19 章      |
-+-------+-----------+-----------+-----------+
+
 
 
