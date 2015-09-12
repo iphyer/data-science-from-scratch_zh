@@ -48,13 +48,16 @@ Unfortunately, this chart is still too difficult to slip into conversations. So 
 num_points = len(num_friends) # 204
 ```
 You’re probably also interested in the largest and smallest values:
-
+你也许对一组数据里的最大值和最小值感兴趣
 
 ```python
 largest_value = max(num_friends) # 100 
 smallest_value = min(num_friends) # 1
 ```
+
+
 which are just special cases of wanting to know the values in specific positions:
+还有些需要知道特殊值
 ```python
 sorted_values = sorted(num_friends)
     smallest_value = sorted_values[0]           # 1
@@ -62,31 +65,42 @@ sorted_values = sorted(num_friends)
     second_largest_value = sorted_values[-2]    # 49
 ```
 But we’re only getting started.
+但这仅仅是开始。
 
-### Central Tendencies
+### Central Tendencies 集中趋势 中值计算
 Usually, we’ll want some notion of where our data is centered. Most commonly we’ll use the mean (or average), which is just the sum of the data divided by its count:
+
+通常来说，我们想知道数据集中在哪个，一半我们用（或平均值），也就是所有数值相加再除以树值的个数
+
 ```python
  # this isn't right if you don't from __future__ import division
 def mean(x):
-return sum(x) / len(x)
-mean(num_friends) # 7.333333
+    return sum(x) / len(x)
+    mean(num_friends) # 7.333333
 ```
+
 If you have two data points, the mean is simply the point halfway between them. As you add more points, the mean shifts around, but it always depends on the value of every point.
 We’ll also sometimes be interested in the median, which is the middle-most value (if the number of data points is odd) or the average of the two middle-most values (if the number of data points is even).
 For instance, if we have five data points in a sorted vector x, the median is x[5 // 2] or x[2]. If we have six data points, we want the average of x[2] (the third point) and x[3] (the fourth point).
 Notice that—unlike the mean—the median doesn’t depend on every value in your data. For example, if you make the largest point larger (or the smallest point smaller), the middle points remain unchanged, which means so does the median.
 The median function is slightly more complicated than you might expect, mostly because of the “even” case:
+
+
+我们有时还对中位数感兴趣，也就是最中间的那个值（如果数据的总量是奇数的话）或者中间两个数的平均值（如果数据的总量是偶数）。
+举例来说， 如果在一个有序向量X中有5个值，中位数就是x[5 //2]或者 x[2]. 如果有六个值，我们
 ```python
 def median(v):
-"""finds the 'middle-most' value of v""" n = len(v)
-sorted_v = sorted(v)
-midpoint = n // 2
-if n % 2 == 1:
-    # if odd, return the middle value return sorted_v[midpoint]
-else:
-    # if even, return the average of the middle values lo = midpoint - 1
-    hi = midpoint
-    return (sorted_v[lo] + sorted_v[hi]) / 2
+    """finds the 'middle-most' value of v""" n = len(v)
+    sorted_v = sorted(v)
+    midpoint = n // 2
+    if n % 2 == 1:
+        # if odd, return the middle value 
+        return sorted_v[midpoint]
+    else:
+        # if even, return the average of the middle values 
+        lo = midpoint - 1
+        hi = midpoint
+        return (sorted_v[lo] + sorted_v[hi]) / 2
 median(num_friends) # 6.0
 ```
 
