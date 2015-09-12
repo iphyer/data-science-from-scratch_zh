@@ -71,10 +71,10 @@
     </tbody>
 </table>
 
-| Tables        | Are           | Cool  |
+| 章节        | 译者           | 翻译进度  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
+| [第1章：简介](chapters/Chapter_01_Introduction.md)      | [iphyer](https://github.com/iphyer) | 完成 |
+| [第2章：Python快速入门教程(WIP)](chapters/Chapter_02_A_Crash_Course_in_Python.md)      | [iphyer](https://github.com/iphyer)      |  完成 |
 | zebra stripes | are neat      |    $1 |
 
 
