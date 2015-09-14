@@ -4,11 +4,11 @@
 
 > —— Harvey Mackay
 
-数据科学家需要的基本工具是数据可视化。尽管非常容易完成可是化，但要做好却不容易。
+数据科学家工具集的一个基本组成部分是数据可视化。尽管非常容易创建可视化，但要做好却不容易。
 
 数据可视化主要有两个用途：
 * 研究数据
-* 传递数据信息（数据通信……）
+* 传递数据信息
 
 本章，我们集中处理建立 你研究数据所需要的技能以及在本书余下章节中所要生成的可视化，正如其他的一些章节，数据可视化内容丰富得足以单独写一本书。然而，我们试试让你理解怎样才是好的可视化，什么不是
 
@@ -235,14 +235,11 @@ visualization throughout the book.
 
 ## 进一步探索
 
-• [seaborn](http://stanford.io) is built on top of matplotlib and allows you to easily produce prettier
-(and more complex) visualizations.
+* [seaborn](http://stanford.io) 基于matplotlib，可以用来更加简单的生成更漂亮（也更复杂）的可视化文件。
 
-• [D3.js](http://d3js.org) is a JavaScript library for producing sophisticated interactive visualizations
-for the web. Although it is not in Python, it is both trendy and widely used, and it
-is well worth your while to be familiar with it.
+* [D3.js](http://d3js.org) 是个Javascript库，它可以生成用于Web应用上的复杂的可交互的可视化。虽然不是Python，但它比较新潮且广泛使用，很值得你去熟悉了解。
 
-• [Bokeh](http://bokeh.pydata.org) is a newer library that brings D3-style visualizations into Python.
+• [Bokeh](http://bokeh.pydata.org) is a newer library that brings D3-style visualizations into Python. 是款可以用Python生成3D风格的可视化的新库。
 
 • [ggplot](http://bit.ly) is a Python port of the popular R library ggplot2, which is widely used for
 creating “publication quality” charts and graphics. It’s probably most interesting
