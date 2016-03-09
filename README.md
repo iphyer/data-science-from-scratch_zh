@@ -27,9 +27,9 @@ From : [hexcola](https://github.com/hexcola)
 
 From : [iphyer](https://github.com/iphyer)
 
-因为各种原因这个项目进度比较缓慢。[iphyer](https://github.com/iphyer)和[hexcola](https://github.com/hexcola)都比较忙。
+因为各种原因这个项目进度比较缓慢。[iphyer](https://github.com/iphyer) 和 [hexcola](https://github.com/hexcola) 都比较忙。
 
-正好[iphyer](https://github.com/iphyer)参加了[bingjin](https://github.com/bingjin)的 [ThinkPython](https://github.com/bingjin/ThinkPython2-CN)　翻译项目，我们重新整理了下整个项目。也请[bingjin](https://github.com/bingjin)帮我们推广下，希望可以引入更多的人加入到这个项目中来。
+正好 [iphyer](https://github.com/iphyer) 参加了 [bingjin](https://github.com/bingjin) 的 [ThinkPython](https://github.com/bingjin/ThinkPython2-CN) 翻译项目，我们重新整理了下整个项目。也请 [bingjin](https://github.com/bingjin) 帮我们推广下，希望可以引入更多的人加入到这个项目中来。
 
 ##翻译指南
 ###任务分类
@@ -98,7 +98,7 @@ From : [iphyer](https://github.com/iphyer)
 
 |状态  |已完成    |正在进行  |等待认领  |校对完成 |校对完成 |
 | ------|------- |:-------------:| -----:|-----:|-----:|
-| 数量  | 5 章     | 1 章     | 19 章      |0 章      |25 章      |
+|数量  |5 章     |1 章     |19 章      |0 章      |25 章      |
 
 欢迎大家参与进来！
 
