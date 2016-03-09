@@ -65,7 +65,7 @@
 | [第3章：数据可视化](chapters/Chapter_03_Visualizing_Data.md) | [hexcola](https://github.com/hexcola)      |   完成  |      |  待校对  |
 | [第4章：线性代数](chapters/Chapter_04_Linear_Algebra.md) | [hexcola](https://github.com/hexcola)      |   完成  |       | 待校对  |
 | [第5章：统计](chapters/Chapter_05_Statistics.md) | [hexcola](https://github.com/hexcola)      |   完成  |     |   待校对  |
-| [第6章：概率](chapters/Chapter_06_Probability.md) |  [iphyer](https://github.com/iphyer)       |   *正在进行*  |      |  待校对  |
+| [第6章：概率](chapters/Chapter_06_Probability.md) |  [iphyer](https://github.com/iphyer)       |   正在进行  |      |  待校对  |
 | [第7章：假设和推理](chapters/Chapter_07_Hypothesis_and_Inference.md) |      | 待认领  |      |  待校对  |
 | [第8章：梯度下降](chapters/Chapter_08_Gradient_Descent.md) |      | 待认领 |      |  待校对  |
 | [第9章：获取数据](chapters/Chapter_09_Getting_Data.md) |     |   待认领  |      |  待校对  |
