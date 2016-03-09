@@ -60,7 +60,7 @@
 
 | 章节        | 译者           | 翻译进度  | 校对者 | 校对进度  |
 | ------------- | -------------: | -----: | -----: |
-| [第1章：简介](chapters/Chapter_01_Introduction.md)      | [iphyer](https://github.com/iphyer) | 完成 |     |   待校对  |
+| [第1章：简介](chapters/Chapter_01_Introduction.md)      | [iphyer](https://github.com/iphyer) | 完成 |      |  待校对  |
 | [第2章：Python快速入门教程](chapters/Chapter_02_A_Crash_Course_in_Python.md)      | [iphyer](https://github.com/iphyer)      |  完成 |      |  待校对  |
 | [第3章：数据可视化](chapters/Chapter_03_Visualizing_Data.md) | [hexcola](https://github.com/hexcola)      |   完成  |      |  待校对  |
 | [第4章：线性代数](chapters/Chapter_04_Linear_Algebra.md) | [hexcola](https://github.com/hexcola)      |   完成  |       | 待校对  |
@@ -77,7 +77,7 @@
 | [第15章：多元回归](chapters/Chapter_15_Multiple_Regression.md) |       |   待认领  |      |  待校对  |
 | [第16章：逻辑回归](chapters/Chapter_16_Logistic_Regression.md) |       |   待认领  |   　  |   待校对  |
 | [第17章：决策树](chapters/Chapter_17_Decision_Trees.md) |       |   待认领  |       | 待校对  |
-| [第18章：神经网络](chapters/Chapter_18_Neural_Networks.md) |       |   待认领  |      |      | 待校对  |
+| [第18章：神经网络](chapters/Chapter_18_Neural_Networks.md) |       |   待认领  |           | 待校对  |
 | [第19章：集群](chapters/Chapter_19_Clustering.md) |       |   待认领  |      |  待校对  |
 | [第20章：自然语言处理](chapters/Chapter_20_Natural_Language_Processing.md)|       |   待认领  |      |  待校对  |
 | [第21章：网络分析](chapters/Chapter_21_Network_Analysis.md) |       |   待认领  |      |  待校对  |
