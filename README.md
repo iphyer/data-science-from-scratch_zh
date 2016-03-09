@@ -9,6 +9,10 @@
 
 ##前言
 
+### 2015.08.15　前言　
+
+From : [hexcola](https://github.com/hexcola)
+
 我在自学的过程中，遇到不少有趣的资源，比如在[Jason的网站](http://machinelearningmastery.com/)找到的对出于不同目标，不同背景学习机器学习的小伙伴划分派系（查看：[Find Your Machine Learning Tribe: Get Started And Avoid Getting The Wrong Advice](http://machinelearningmastery.com/machine-learning-tribe/)）从而更具有针对性的开始和深入。
 
 作为一个（数学底子不扎实的）程序猿 :(，深刻体会到先去学习线性代数、概率论、统计学然后再开始机器学习是有多么枯燥和沮丧，Jason的观点 [Machine Learning for Programmers: Leap from developer to machine learning practitioner](http://machinelearningmastery.com/machine-learning-for-programmers/) 绝对是让人眼前一亮，在挖他得博文时知道了**[Data Science From Scratch: First Principles with Python](http://joelgrus.com/2015/04/26/data-science-from-scratch-first-principles-with-python/)** 这本书，在今年近5月份出版，现在还没有中文版。
@@ -17,9 +21,10 @@
 
 我们尽力做到最好，但才疏学浅，如果有误，还望不吝赐教！
 
-如果你想一起翻译，或者交流数据科学的学习心得，联系我们吧！:D
+如果你想一起翻译，或者交流数据科学的学习心得，联系我们吧！
 
 ###2016.03.09 更新
+From : [iphyer](https://github.com/iphyer)
 
 因为各种原因这个项目进度比较缓慢。[iphyer](https://github.com/iphyer)和[hexcola](https://github.com/hexcola)都比较忙。
 
@@ -49,10 +54,12 @@
 
 也可以微信联系我,微信号: iphyer。
 
+![weixin](assets/images/weixin.jpg)
+
 ###注意事项
 
 1. 统一使用 Markdown　语言编辑。
-2. 图片存放在assets/images/文件夹下,截图存为png格式即可,命名格式为
+2. 图片存放在assets/images/文件夹下,截图存为png格式即可,命名格式为:C章节号-序号.png，如第3章第2张图片的序号为:C03_002.png。注意章节号为两位数字，序号为三位数字。
 3. 翻译不需要包括英文，包括也可以，这样可以帮助校对的同学校对。但是为了减轻翻译负担不强制包括。
 4. 这本书的翻译并不轻松，如果感觉翻译不下去，也可以提交已经翻译好的部分结果，在commit中说明即可。但是在最后完成名单中只保留首页的完成者。
 
