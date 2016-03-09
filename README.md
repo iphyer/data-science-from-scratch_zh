@@ -25,22 +25,45 @@
 
 正好[iphyer](https://github.com/iphyer)参加了[bingjin](https://github.com/bingjin)的 [ThinkPython](https://github.com/bingjin/ThinkPython2-CN)　翻译项目，我们重新整理了下整个项目。也请[bingjin](https://github.com/bingjin)帮我们推广下，希望可以引入更多的人加入到这个项目中来。
 
+##翻译指南
+###任务分类
+
+项目的任务主要是两类:
+
+1. 翻译
+2. 校对
+
+欢迎大家加入进来，最近感觉到了data science的引爆点，希望这本书可以给大家更多的帮助。
+
+###参与步骤
+
+1. fork本项目
+2. 修改进度表，添加自己的github账户。大家在commit里面标注下自己申请的章节号。
+3. 提交到自己的github仓库
+4. 向我pull requests
+5. 翻译或者校对
+6. 提交到自己的github仓库
+7. 向我pull requests
+
+主要就是这个流程。希望大家可以借助 Github　协同工作起来。
+
+也可以微信联系我,微信号iphyer。
 
 ##翻译进度表
 
-| 章节        | 译者           | 翻译进度  | 校对  |
+| 章节        | 译者           | 翻译进度  |  校对  |
 | ------------- |:-------------:| -----:| -----:|
 | [第1章：简介](chapters/Chapter_01_Introduction.md)      | [iphyer](https://github.com/iphyer) | 完成 |   待校对  |
 | [第2章：Python快速入门教程](chapters/Chapter_02_A_Crash_Course_in_Python.md)      | [iphyer](https://github.com/iphyer)      |  完成 |   待校对  |
 | [第3章：数据可视化](chapters/Chapter_03_Visualizing_Data.md) | [hexcola](https://github.com/hexcola)      |   完成  |   待校对  |
 | [第4章：线性代数](chapters/Chapter_04_Linear_Algebra.md) | [hexcola](https://github.com/hexcola)      |   完成  |   待校对  |
-| [第5章：统计](chapters/Chapter_05_Statistics.md) | [hexcola](https://github.com/hexcola)      |   完成  |   待认领  |
-| [第6章：概率](chapters/Chapter_06_Probability.md) | [hexcola](https://github.com/hexcola)      |   *正在进行*  |   待校对  |
+| [第5章：统计](chapters/Chapter_05_Statistics.md) | [hexcola](https://github.com/hexcola)      |   完成  |   待校对  |
+| [第6章：概率](chapters/Chapter_06_Probability.md) |  [iphyer](https://github.com/iphyer)       |   *正在进行*  |   待校对  |
 | [第7章：假设和推理](chapters/Chapter_07_Hypothesis_and_Inference.md) |      | 待认领  |   待校对  |
 | [第8章：梯度下降](chapters/Chapter_08_Gradient_Descent.md) |      | 待认领 |   待校对  |
-| [第9章：获取数据](chapters/Chapter_09_Getting_Data.md) |   [iphyer](https://github.com/iphyer)    |   *正在进行*  |   待校对  |
-| [第10章：处理数据](chapters/Chapter_10_Working_with_Data.md) |    [iphyer](https://github.com/iphyer)   |   *正在进行*  |   待校对  |
-| [第11章：机器学习](chapters/Chapter_11_Machine_Learning.md) |   [iphyer](https://github.com/iphyer)    |  *正在进行*  |   待校对  |
+| [第9章：获取数据](chapters/Chapter_09_Getting_Data.md) |     |   待认领  |   待校对  |
+| [第10章：处理数据](chapters/Chapter_10_Working_with_Data.md) |       |   待认领  |   待校对  |
+| [第11章：机器学习](chapters/Chapter_11_Machine_Learning.md) |     |  待认领  |   待校对  |
 | [第12章：k近邻算法](chapters/Chapter_12_k_Nearest_Neighbors.md) |       |   待认领  |   待校对  |
 | [第13章：朴素贝叶斯](chapters/Chapter_13_Naive_Bayes.md) |       |   待认领  |   待校对  |
 | [第14章：简单线性回归](chapters/Chapter_14_Simple_Linear_Regression.md) |       |   待认领  |   待校对  |
