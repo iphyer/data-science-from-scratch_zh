@@ -75,15 +75,15 @@ From : [iphyer](https://github.com/iphyer)
 ```
 tips_001.png : 
 
-![caution](assets/images/tips_001.png)
+![caution1](assets/images/tips_001.png)
 
 tips_002.png : 
 
-![tips02](../assets/images/tips_002.png)
+![caution2](assets/images/tips_002.png)
 
 tips_003.png :
  
-![tips03](../assets/images/tips_003.png)
+![caution3](assets/images/tips_003.png)
 
 
 
