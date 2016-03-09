@@ -72,13 +72,15 @@ From : [iphyer](https://github.com/iphyer)
 ```
 ![](../assets/images/tips_002.png)
 写下注意中的内容
-
 ```
-tips_001.png : ![01](../assets/images/tips_001.png)
+tips_001.png : 
+![01](../assets/images/tips_001.png)
 
-tips_002.png : ![02](../assets/images/tips_002.png)
+tips_002.png : 
+![02](../assets/images/tips_002.png)
 
-tips_003.png : ![03](../assets/images/tips_003.png)
+tips_003.png : 
+![03](../assets/images/tips_003.png)
 
 6. 如果出现公式也请按照图片处理，这样方便在网页上显示出来，而不需要费力协调格式问题。
 
