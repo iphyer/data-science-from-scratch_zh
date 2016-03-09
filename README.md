@@ -75,7 +75,7 @@ From : [iphyer](https://github.com/iphyer)
 ```
 tips_001.png : 
 
-![tips01](../assets/images/tips_001.png)
+![caution](assets/images/tips_001.png)
 
 tips_002.png : 
 
