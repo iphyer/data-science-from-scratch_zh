@@ -40,14 +40,14 @@
 1. fork本项目
 2. 修改进度表，添加自己的github账户。大家在commit里面标注下自己申请的章节号。
 3. 提交到自己的github仓库
-4. 向我pull requests
+4. 向[iphyer](https://github.com/iphyer)pull requests
 5. 翻译或者校对
 6. 提交到自己的github仓库
 7. 向我pull requests
 
 主要就是这个流程。希望大家可以借助 Github　协同工作起来。
 
-也可以微信联系我,微信号iphyer。
+也可以微信联系我,微信号: iphyer。
 
 ###注意事项
 
@@ -59,7 +59,7 @@
 ##翻译进度表
 
 | 章节        | 译者           | 翻译进度  | 校对者 | 校对进度  |
-| ------------- |:-------------:| -----:| -----:|
+| ------------- |:-------------:|:-----:|:-----:|
 | [第1章：简介](chapters/Chapter_01_Introduction.md)      | [iphyer](https://github.com/iphyer) | 完成 |     |   待校对  |
 | [第2章：Python快速入门教程](chapters/Chapter_02_A_Crash_Course_in_Python.md)      | [iphyer](https://github.com/iphyer)      |  完成 |      |  待校对  |
 | [第3章：数据可视化](chapters/Chapter_03_Visualizing_Data.md) | [hexcola](https://github.com/hexcola)      |   完成  |      |  待校对  |
