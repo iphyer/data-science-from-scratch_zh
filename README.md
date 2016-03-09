@@ -9,7 +9,7 @@
 
 ##前言
 
-### 2015.08.15　前言　
+###2015.08.15 前言 
 
 From : [hexcola](https://github.com/hexcola)
 
@@ -23,7 +23,8 @@ From : [hexcola](https://github.com/hexcola)
 
 如果你想一起翻译，或者交流数据科学的学习心得，联系我们吧！
 
-###2016.03.09 更新
+###2016.03.09 更新 
+
 From : [iphyer](https://github.com/iphyer)
 
 因为各种原因这个项目进度比较缓慢。[iphyer](https://github.com/iphyer)和[hexcola](https://github.com/hexcola)都比较忙。
