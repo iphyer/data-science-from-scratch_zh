@@ -30,8 +30,8 @@
 | [第4章：线性代数](chapters/Chapter_04_Linear_Algebra.md) | [hexcola](https://github.com/hexcola)      |   *正在进行*  |
 | [第5章：统计](chapters/Chapter_05_Statistics.md) | [hexcola](https://github.com/hexcola)      |   *正在进行*  |
 | [第6章：概率](chapters/Chapter_06_Probability.md) | [hexcola](https://github.com/hexcola)      |   *正在进行*  |
-| [第7章：假设和推理](chapters/Chapter_07_Hypothesis_and_Inference.md) | [hexcola](https://github.com/hexcola)      |   *正在进行*  |
-| [第8章：梯度下降](chapters/Chapter_08_Gradient_Descent.md) | [hexcola](https://github.com/hexcola)      |   *正在进行*  |
+| [第7章：假设和推理](chapters/Chapter_07_Hypothesis_and_Inference.md) |      | 待认领  |
+| [第8章：梯度下降](chapters/Chapter_08_Gradient_Descent.md) |      | 待认领 |
 | [第9章：获取数据](chapters/Chapter_09_Getting_Data.md) |   [iphyer](https://github.com/iphyer)    |   *正在进行*  |
 | [第10章：处理数据](chapters/Chapter_10_Working_with_Data.md) |    [iphyer](https://github.com/iphyer)   |   *正在进行*  |
 | [第11章：机器学习](chapters/Chapter_11_Machine_Learning.md) |   [iphyer](https://github.com/iphyer)    |  *正在进行*  |
@@ -55,7 +55,7 @@
 
 | 状态  | 已完成    | 正在进行  | 等待认领  |
 | ------|------- |:-------------:| -----:|
-| 数量  | 2 章     | 9 章     | 14 章      |
+| 数量  | 2 章     | 7 章     | 16 章      |
 
 欢迎大家参与进来！
 
