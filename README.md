@@ -1,9 +1,20 @@
 # Data Science from Scratch First Principles with Python 试译
 
+# 停止声明
+
+大家可以去图灵社区购买电子版了。已经出了电子版，比较好的版本。[图灵社区:数据科学入门](http://www.ituring.com.cn/book/1687)
+欢迎大家入手。
+
+![book](assets/images/book_cn.png)
+
+这个项目即刻停止更新。
+
+祝好！
+
 ## 声明
 该翻译仅供学习交流，不做任何商业用途，尊重作者的辛勤劳动，请到这里[购买]正版图书(http://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X)
-![buy](assets/images/buy.png)
 
+![buy](assets/images/buy.png)
 * 作者**Joel Grus**的[Github链接](https://github.com/joelgrus)
 * [书籍示例代码](https://github.com/joelgrus/data-science-from-scratch)
 
